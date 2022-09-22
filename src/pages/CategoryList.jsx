@@ -1,51 +1,25 @@
 import React from "react";
 
-const ProductCategory = () => {
+const CategoryList = () => {
   return (
     <>
       <main className="main">
         <div
           className="page-header text-center"
           style={{ backgroundImage: 'url("assets/images/page-header-bg.jpg")' }}
-        >
-          <div className="container-fluid">
-            <h1 className="page-title">
-              Product Category Fullwidth<span>Shop</span>
-            </h1>
-          </div>
-          {/* End .container-fluid */}
-        </div>
+        ></div>
         {/* End .page-header */}
         <nav
           aria-label="breadcrumb"
           className="breadcrumb-nav breadcrumb-with-filter"
         >
-          <div className="container-fluid">
-            <a href="#" className="sidebar-toggler">
-              <i className="icon-bars" />
-              Filters
-            </a>
-            <ol className="breadcrumb">
-              <li className="breadcrumb-item">
-                <a href="index.html">Home</a>
-              </li>
-              <li className="breadcrumb-item">
-                <a href="#">Shop</a>
-              </li>
-              <li className="breadcrumb-item">
-                <a href="#">Product Category</a>
-              </li>
-              <li className="breadcrumb-item active" aria-current="page">
-                Fullwidth
-              </li>
-            </ol>
-          </div>
+          <div className="container"></div>
           {/* End .container-fluid */}
         </nav>
         {/* End .breadcrumb-nav */}
         <div className="page-content">
           <div className="categories-page">
-            <div className="container-fluid">
+            <div className="container">
               <div className="row">
                 <div className="col-lg-6">
                   <div className="row">
@@ -492,4 +466,4 @@ const ProductCategory = () => {
   );
 };
 
-export default ProductCategory;
+export default CategoryList;
