@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import CategoryList from "./pages/CategoryList";
+import ProductList from "./pages/ProductList";
 
 const Router = () => {
   return (
@@ -13,6 +14,7 @@ const Router = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/categorylist" element={<CategoryList />} />
+        <Route path="/productlist" element={<ProductList />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="*" element={<Error />} />
       </Routes>

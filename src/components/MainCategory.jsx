@@ -71,7 +71,7 @@ const MainCategory = () => {
                     href="/categorylist"
                     className="btn btn-outline-primary-2 banner-link"
                   >
-                    Shop Now
+                    Discover Now
                     <i className="icon-long-arrow-right" />
                   </a>
                 </div>

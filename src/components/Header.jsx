@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
                 <span className="sr-only">Toggle mobile menu</span>
                 <i className="icon-bars" />
               </button>
-              <a href="index.html" className="logo">
+              <a href="/" className="logo">
                 <img
                   src="assets/images/demos/demo-5/logo.png"
                   alt="Molla Logo"
@@ -22,29 +23,26 @@ const Header = () => {
               <nav className="main-nav">
                 <ul className="menu sf-arrows">
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link to="/categorylist">Product</Link>
                   </li>
                   <li>
-                    <a href="product.html">Product</a>
-                  </li>
-                  <li>
-                    <a href="#" className="sf-with-ul">
+                    <a href="" className="sf-with-ul">
                       Media
                     </a>
                     <ul>
                       <li>
-                        <a href="#">Blogs</a>
+                        <Link to="/blog">Blogs</Link>
                       </li>
                       <li>
-                        <a href="#">Gallery</a>
+                        <Link to="gallery">Gallery</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">About Us</a>
+                    <Link to="/aboutus">About Us</Link>
                   </li>
                   <li>
-                    <a href="#">Contact Us</a>
+                    <Link to="/contactus">Contact Us</Link>
                   </li>
                 </ul>
                 {/* End .menu */}
@@ -78,9 +76,6 @@ const Header = () => {
                 </form>
               </div>
               {/* End .header-search */}
-              <a href="wishlist.html" className="wishlist-link">
-                <i className="icon-heart-o" />
-              </a>
             </div>
             {/* End .header-right */}
           </div>

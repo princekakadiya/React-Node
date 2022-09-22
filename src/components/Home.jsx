@@ -309,15 +309,8 @@ const Home = () => {
           <ContactUs />
         </main>
         {/* End .main */}
-
-        <CategoryList />
-        {/* End .footer */}
       </div>
-
       {/* End .page-wrapper */}
-      <button id="scroll-top" title="Back to Top">
-        <i className="icon-arrow-up" />
-      </button>
       {/* Mobile Menu */}
       <div className="mobile-menu-overlay" />
       {/* End .mobil-menu-overlay */}
