@@ -52,7 +52,7 @@ const TrendingProduct = () => {
                   />
                 </figure>
                 {/* End .product-media */}
-                <div className="product-body">
+                <div className="product-body ">
                   <div className="product-cat">
                     <a href="#">Clothing</a>
                   </div>
@@ -62,7 +62,7 @@ const TrendingProduct = () => {
                   </h3>
                   <a
                     href="/productlist"
-                    className="btn btn-outline-primary-2 btn-round btn-more"
+                    className="shadow-none btn btn-outline-primary-2 btn-minwidth-sm"
                   >
                     Load more
                   </a>

@@ -3,7 +3,7 @@ import React from "react";
 const NewArrivals = () => {
   return (
     <>
-      <div className="container pt-6 new-arrivals">
+      <div className="container pt-4 new-arrivals">
         <div className="heading heading-center mb-5">
           <h2 className="title">New Arrivals</h2>
           {/* End .title */}

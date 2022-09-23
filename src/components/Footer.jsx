@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
-      <footer className="footer footer-2">
-        <div className="footer-middle border-0">
+      <footer className="footer">
+        <div className="footer-middle ">
           <div className="container">
             <div className="row">
               <div className="col-sm-12 col-lg-6">
@@ -60,19 +61,15 @@ const Footer = () => {
                   {/* End .widget-title */}
                   <ul className="widget-list">
                     <li>
-                      <a href="about.html">About Molla</a>
-                    </li>
-                    <li>
-                      <a href="#">How to shop on Molla</a>
+                      <Link style={{ textDecoration: "none" }} to="/about">
+                        About Molla
+                      </Link>
                     </li>
                     <li>
                       <a href="faq.html">FAQ</a>
                     </li>
                     <li>
                       <a href="contact.html">Contact us</a>
-                    </li>
-                    <li>
-                      <a href="login.html">Log in</a>
                     </li>
                   </ul>
                   {/* End .widget-list */}
