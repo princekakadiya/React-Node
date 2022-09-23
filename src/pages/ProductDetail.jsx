@@ -21,7 +21,7 @@ const ProductDetail = () => {
                   <div className="row">
                     <figure className="product-main-image">
                       <img
-                        // id="product-zoom"
+                        id="product-zoom"
                         src="assets/images/products/single/1.jpg"
                         data-zoom-image="assets/images/products/single/1-big.jpg"
                         alt="product image"
