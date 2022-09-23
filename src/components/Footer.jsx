@@ -19,9 +19,7 @@ const Footer = () => {
                   />
                   <p>
                     Praesent dapibus, neque id cursus ucibus, tortor neque
-                    egestas augue, eu vulputate magna eros eu erat. Aliquam erat
-                    volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
-                    facilisis luctus, metus.
+                    egestas augue, eu vulputate magna eros eu erat.
                   </p>
                   <div className="widget-about-info">
                     <div className="row">
@@ -30,21 +28,6 @@ const Footer = () => {
                           Got Question? Call us 24/7
                         </span>
                         <a href="tel:123456789">+0123 456 789</a>
-                      </div>
-                      {/* End .col-sm-6 */}
-                      <div className="col-sm-6 col-md-8">
-                        <span className="widget-about-title">
-                          Payment Method
-                        </span>
-                        <figure className="footer-payments">
-                          <img
-                            src="assets/images/payments.png"
-                            alt="Payment methods"
-                            width={272}
-                            height={20}
-                          />
-                        </figure>
-                        {/* End .footer-payments */}
                       </div>
                       {/* End .col-sm-6 */}
                     </div>
@@ -57,36 +40,30 @@ const Footer = () => {
               {/* End .col-sm-12 col-lg-3 */}
               <div className="col-sm-4 col-lg-2">
                 <div className="widget">
-                  <h4 className="widget-title">Information</h4>
-                  {/* End .widget-title */}
-                  <ul className="widget-list">
-                    <li>
-                      <Link style={{ textDecoration: "none" }} to="/about">
-                        About Molla
-                      </Link>
-                    </li>
-                    <li>
-                      <a href="faq.html">FAQ</a>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact us</a>
-                    </li>
-                  </ul>
-                  {/* End .widget-list */}
+                  <Link to="productlist">
+                    <h4 className="widget-title">Product</h4>
+                  </Link>
+                  <a href="productlist">
+                    <h4 className="widget-title">About Us</h4>
+                  </a>
+                  <a href="productlist">
+                    <h4 className="widget-title">Contact Us</h4>
+                  </a>
                 </div>
+
                 {/* End .widget */}
               </div>
               {/* End .col-sm-4 col-lg-3 */}
               <div className="col-sm-4 col-lg-2">
                 <div className="widget">
-                  <h4 className="widget-title">Customer Service</h4>
+                  <h4 className="widget-title">Media</h4>
                   {/* End .widget-title */}
                   <ul className="widget-list">
                     <li>
-                      <a href="#">Payment Methods</a>
+                      <a href="#">Blog</a>
                     </li>
                     <li>
-                      <a href="#">Money-back guarantee!</a>
+                      <a href="#">Gallery</a>
                     </li>
                     <li>
                       <a href="#">Returns</a>
