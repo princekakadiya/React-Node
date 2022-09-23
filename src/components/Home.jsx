@@ -69,18 +69,12 @@ const Home = () => {
               <img src="assets/images/brands/7.png" alt="Brand Name" />
             </a>
           </div>
-          {/* ------------------------------ Main 3 product / Category ----------------------------------- */}
-          <MainCategory />
-          <div className="mb-4" />
           {/* -----------------------------------Trending products----------------------------------------- */}
           <TrendingProduct />
           <div className="mb-5" />
           {/* -----------------------------------------Youtube video---------------------------------------- */}
           <Video />
           {/* End .video-banner bg-image */}
-          {/* -------------------------------Special product ----------------------------------------- */}
-          <SpecialProduct />
-          {/* End .bg-lighter pt6 pb-6 */}
           {/* -----------------------------------------New Arrivals----------------------------------- */}
           <NewArrivals />
           {/* End .container */}

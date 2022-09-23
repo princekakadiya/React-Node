@@ -4,63 +4,8 @@ const TrendingProduct = () => {
   return (
     <>
       <div className="container">
-        <div className="heading heading-center mb-3">
+        <div className="heading heading-center mb-5">
           <h2 className="title">Trending Products</h2>
-          {/* End .title */}
-          <ul className="nav nav-pills justify-content-center" role="tablist">
-            <li className="nav-item">
-              <a
-                className="nav-link active"
-                id="trendy-all-link"
-                data-toggle="tab"
-                href="#trendy-all-tab"
-                role="tab"
-                aria-controls="trendy-all-tab"
-                aria-selected="true"
-              >
-                All
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                id="trendy-women-link"
-                data-toggle="tab"
-                href="#trendy-women-tab"
-                role="tab"
-                aria-controls="trendy-women-tab"
-                aria-selected="false"
-              >
-                Women
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                id="trendy-men-link"
-                data-toggle="tab"
-                href="#trendy-men-tab"
-                role="tab"
-                aria-controls="trendy-men-tab"
-                aria-selected="false"
-              >
-                Men
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                id="trendy-access-link"
-                data-toggle="tab"
-                href="#trendy-access-tab"
-                role="tab"
-                aria-controls="trendy-access-tab"
-                aria-selected="false"
-              >
-                Accessories
-              </a>
-            </li>
-          </ul>
         </div>
         {/* End .heading */}
         <div className="tab-content tab-content-carousel">
@@ -115,6 +60,12 @@ const TrendingProduct = () => {
                   <h3 className="product-title">
                     <a href="product.html">Vest dress</a>
                   </h3>
+                  <a
+                    href="/productlist"
+                    className="btn btn-outline-primary-2 btn-round btn-more"
+                  >
+                    Load more
+                  </a>
                   {/* End .product-title */}
                 </div>
                 {/* End .product-body */}
@@ -288,80 +239,6 @@ const TrendingProduct = () => {
               </div>
               {/* End .product */}
             </div>
-            {/* End .owl-carousel */}
-          </div>
-          {/* .End .tab-pane */}
-          <div
-            className="tab-pane p-0 fade"
-            id="trendy-men-tab"
-            role="tabpanel"
-            aria-labelledby="trendy-men-link"
-          >
-            <div
-              className="owl-carousel owl-simple carousel-equal-height carousel-with-shadow"
-              data-toggle="owl"
-              data-owl-options='{
-                  "nav": false, 
-                  "dots": true,
-                  "margin": 20,
-                  "loop": false,
-                  "responsive": {
-                      "0": {
-                          "items":2
-                      },
-                      "480": {
-                          "items":2
-                      },
-                      "768": {
-                          "items":3
-                      },
-                      "992": {
-                          "items":4
-                      },
-                      "1200": {
-                          "items":4,
-                          "nav": true
-                      }
-                  }
-              }'
-            ></div>
-            {/* End .owl-carousel */}
-          </div>
-          {/* .End .tab-pane */}
-          <div
-            className="tab-pane p-0 fade"
-            id="trendy-access-tab"
-            role="tabpanel"
-            aria-labelledby="trendy-access-link"
-          >
-            <div
-              className="owl-carousel owl-simple carousel-equal-height carousel-with-shadow"
-              data-toggle="owl"
-              data-owl-options='{
-                  "nav": false, 
-                  "dots": true,
-                  "margin": 20,
-                  "loop": false,
-                  "responsive": {
-                      "0": {
-                          "items":2
-                      },
-                      "480": {
-                          "items":2
-                      },
-                      "768": {
-                          "items":3
-                      },
-                      "992": {
-                          "items":4
-                      },
-                      "1200": {
-                          "items":4,
-                          "nav": true
-                      }
-                  }
-              }'
-            ></div>
             {/* End .owl-carousel */}
           </div>
           {/* .End .tab-pane */}

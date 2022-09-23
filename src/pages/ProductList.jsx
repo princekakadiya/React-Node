@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProductList = () => {
   return (
@@ -21,12 +22,12 @@ const ProductList = () => {
                 <div className="entry-item lifestyle shopping col-sm-6 col-md-4 col-lg-3">
                   <article className="entry entry-grid text-center">
                     <figure className="entry-media">
-                      <a href="single.html">
+                      <Link to="/productdetail">
                         <img
                           src="assets/images/blog/grid/4cols/post-1.jpg"
                           alt="image desc"
                         />
-                      </a>
+                      </Link>
                     </figure>
                     {/* End .entry-media */}
                     <div className="entry-body">

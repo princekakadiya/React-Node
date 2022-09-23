@@ -4,6 +4,15 @@ import Header from "./Header";
 const ContactUs = () => {
   return (
     <>
+      <div
+        className="page-header text-center mb-5 "
+        style={{
+          backgroundImage: 'url("assets/images/page-header-bg.jpg")',
+        }}
+      >
+        {/* End .container */}
+      </div>
+      {/* End .page-header */}
       <div className="page-content pb-0">
         <div className="container">
           <div className="row">
@@ -167,88 +176,7 @@ const ContactUs = () => {
             {/* End .col-lg-6 */}
           </div>
           {/* End .row */}
-          <hr className="mt-4 mb-5" />
-          <div className="stores mb-4 mb-lg-5">
-            <h2 className="title text-center mb-3">Our Stores</h2>
-            {/* End .title text-center mb-2 */}
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="store">
-                  <div className="row">
-                    <div className="col-sm-5 col-xl-6">
-                      <figure className="store-media mb-2 mb-lg-0">
-                        <img src="assets/images/stores/img-1.jpg" alt="image" />
-                      </figure>
-                      {/* End .store-media */}
-                    </div>
-                    {/* End .col-xl-6 */}
-                    <div className="col-sm-7 col-xl-6">
-                      <div className="store-content">
-                        <h3 className="store-title">Wall Street Plaza</h3>
-                        {/* End .store-title */}
-                        <address>88 Pine St, New York, NY 10005, USA</address>
-                        <div>
-                          <a href="tel:#">+1 987-876-6543</a>
-                        </div>
-                        <h4 className="store-subtitle">Store Hours:</h4>
-                        {/* End .store-subtitle */}
-                        <div>Monday - Saturday 11am to 7pm</div>
-                        <div>Sunday 11am to 6pm</div>
-                        <a href="/" className="btn btn-link" target="_blank">
-                          <span>View Map</span>
-                          <i className="icon-long-arrow-right" />
-                        </a>
-                      </div>
-                      {/* End .store-content */}
-                    </div>
-                    {/* End .col-xl-6 */}
-                  </div>
-                  {/* End .row */}
-                </div>
-                {/* End .store */}
-              </div>
-              {/* End .col-lg-6 */}
-              <div className="col-lg-6">
-                <div className="store">
-                  <div className="row">
-                    <div className="col-sm-5 col-xl-6">
-                      <figure className="store-media mb-2 mb-lg-0">
-                        <img src="assets/images/stores/img-2.jpg" alt="image" />
-                      </figure>
-                      {/* End .store-media */}
-                    </div>
-                    {/* End .col-xl-6 */}
-                    <div className="col-sm-7 col-xl-6">
-                      <div className="store-content">
-                        <h3 className="store-title">One New York Plaza</h3>
-                        {/* End .store-title */}
-                        <address>88 Pine St, New York, NY 10005, USA</address>
-                        <div>
-                          <a href="tel:#">+1 987-876-6543</a>
-                        </div>
-                        <h4 className="store-subtitle">Store Hours:</h4>
-                        {/* End .store-subtitle */}
-                        <div>Monday - Friday 9am to 8pm</div>
-                        <div>Saturday - 9am to 2pm</div>
-                        <div>Sunday - Closed</div>
-                        <a href="/" className="btn btn-link" target="_blank">
-                          <span>View Map</span>
-                          <i className="icon-long-arrow-right" />
-                        </a>
-                      </div>
-                      {/* End .store-content */}
-                    </div>
-                    {/* End .col-xl-6 */}
-                  </div>
-                  {/* End .row */}
-                </div>
-                {/* End .store */}
-              </div>
-              {/* End .col-lg-6 */}
-            </div>
-            {/* End .row */}
-          </div>
-          {/* End .stores */}
+          {/* <hr className="mt-4 mb-5" /> */}
         </div>
         {/* End .container */}
         <div id="map">

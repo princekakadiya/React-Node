@@ -4,63 +4,9 @@ const NewArrivals = () => {
   return (
     <>
       <div className="container pt-6 new-arrivals">
-        <div className="heading heading-center mb-3">
+        <div className="heading heading-center mb-5">
           <h2 className="title">New Arrivals</h2>
           {/* End .title */}
-          <ul className="nav nav-pills justify-content-center" role="tablist">
-            <li className="nav-item">
-              <a
-                className="nav-link active"
-                id="new-all-link"
-                data-toggle="tab"
-                href="#new-all-tab"
-                role="tab"
-                aria-controls="new-all-tab"
-                aria-selected="true"
-              >
-                All
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                id="new-cloth-link"
-                data-toggle="tab"
-                href="#new-cloth-tab"
-                role="tab"
-                aria-controls="new-cloth-tab"
-                aria-selected="false"
-              >
-                Clothing
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                id="new-shoes-link"
-                data-toggle="tab"
-                href="#new-shoes-tab"
-                role="tab"
-                aria-controls="new-shoes-tab"
-                aria-selected="false"
-              >
-                Shoes &amp; Boots
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                id="new-access-link"
-                data-toggle="tab"
-                href="#new-access-tab"
-                role="tab"
-                aria-controls="new-access-tab"
-                aria-selected="false"
-              >
-                Accessories
-              </a>
-            </li>
-          </ul>
         </div>
         {/* End .heading */}
         <div className="tab-content">
@@ -1019,7 +965,10 @@ const NewArrivals = () => {
         </div>
         {/* End .tab-content */}
         <div className="more-container text-center mt-1 mb-3">
-          <a href="#" className="btn btn-outline-primary-2 btn-round btn-more">
+          <a
+            href="/productlist"
+            className="btn btn-outline-primary-2 btn-round btn-more"
+          >
             Load more
           </a>
         </div>
