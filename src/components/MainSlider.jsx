@@ -7,7 +7,7 @@ const MainSlider = () => {
         <div
           className="intro-slider owl-carousel owl-theme owl-nav-inside owl-light"
           data-toggle="owl"
-          data-owl-options='{"nav": false, "dots": false}'
+          data-owl-options='{"dots": false}'
         >
           <div
             className="intro-slide"
