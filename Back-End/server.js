@@ -9,9 +9,8 @@ app.use(express.static(buildPath));
 const nodemailer = require("nodemailer");
 const port = 5000;
 
-app.listen(port, () => {
-    console.log(`nodemailerProject is listening at http://localhost:${port}`);
-});
+import { productRoute } from "./routes";
+app.use(productRoute);
 
 app.post("/users", async (req, res) => {
     var transporter = nodemailer.createTransport({
@@ -47,4 +46,8 @@ app.post("/users", async (req, res) => {
             res.json({ status: true, respMesg: "Email Sent Successfully" });
         }
     });
+});
+
+app.listen(port, () => {
+    console.log(`nodemailerProject is listening at http://localhost:${port}`);
 });
