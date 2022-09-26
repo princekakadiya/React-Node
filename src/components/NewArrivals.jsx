@@ -34,7 +34,10 @@ const NewArrivals = () => {
                         <Link
                           to="/inquiry"
                           className="btn-product"
-                          style={{ textDecoration: "none" }}
+                          style={{
+                            textDecoration: "none",
+                            backgroundColor: "#408a55",
+                          }}
                         >
                           <span>Send inquiry</span>
                         </Link>

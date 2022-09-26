@@ -1,29 +1,34 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SmallIntro = () => {
   return (
     <>
-      <div className=" pt-6 pb-5 mb-6 mb-lg-4">
+      <div className="pt-6 pb-5 mb-6 mb-lg-4">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 mb-3 mb-lg-0">
-              <h2 className="title">Who We Are</h2>
+            <div className="col-lg-5 mt-5">
+              <h1 className="display-1 ml-5">
+                <strong>Who We Are</strong>
+              </h1>
               {/* End .title */}
-              <p className=" text-primary ">
+              <p className=" mt-5 ml-5" style={{ color: "#408a55" }}>
                 Pellentesque odio nisi, euismod pharetra a ultricies <br />
-                in diam. Sed arcu. Cras consequat
+                in diam. Sed arcu. Cras consequat dssd phratcture ultiordh ghjty
               </p>
               {/* End .lead text-primary */}
-              <p className="mb-2">
+              <p className="mt-5 ml-5">
                 Sed pretium, ligula sollicitudin laoreet viverra, tortor libero
                 sodales leo, eget blandit nunc tortor eu nibh. Suspendisse
                 potenti. Sed egestas, ante et vulputate volutpat, uctus metus
                 libero eu augue.{" "}
               </p>
-              <a href="aboutus" className="btn btn-outline-primary-2">
-                <span>About US</span>
-                <i className="icon-long-arrow-right" />
-              </a>
+              <div className="ml-5 mt-5 col-5">
+                <button type="button" class="btn btn-lg btn-outline-success">
+                  About US
+                  <i className="icon-long-arrow-right" />
+                </button>
+              </div>
             </div>
             {/* End .col-lg-5 */}
             <div className="col-lg-6 offset-lg-1">
@@ -47,7 +52,6 @@ const SmallIntro = () => {
         </div>
         {/* End .container */}
       </div>
-      {/* End .bg-light-2 pt-6 pb-6 */}
     </>
   );
 };
