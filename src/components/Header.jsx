@@ -14,7 +14,8 @@ const Header = () => {
               </button>
               <a href="/" className="logo">
                 <img
-                  src="assets/images/demos/demo-5/logo.png"
+                  src="assets/images/demos/demo-5/logo-a.png"
+                  // src="src/components/logo.png"
                   alt="Molla Logo"
                   width={105}
                   height={25}

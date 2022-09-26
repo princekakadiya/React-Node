@@ -35,13 +35,18 @@ const CategoryList = () => {
                               alt="Banner"
                             />
                           </Link>
-                          <a className="banner-link" href="#">
-                            <h3 className="banner-title">Jackets</h3>
+                          <span className="banner-link">
+                            <h3 className="banner-title">Category name</h3>
                             {/* End .banner-title */}
                             <h4 className="banner-subtitle">2 Products</h4>
                             {/* End .banner-subtitle */}
-                            <span className="banner-link-text">Shop Now</span>
-                          </a>
+                            <Link
+                              className="banner-link-text"
+                              to="/productlist"
+                            >
+                              See Alls
+                            </Link>
+                          </span>
                           {/* End .banner-link */}
                         </div>
                         {/* End .banner */}
