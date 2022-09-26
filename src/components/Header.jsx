@@ -14,7 +14,7 @@ const Header = () => {
               </button>
               <a href="/" className="logo mr-5">
                 <img
-                  src="assets/images/demos/demo-5/logo-a.png"
+                  src="assets/images/demos/demo-5/logo-a-removebg-preview.png"
                   // src="src/components/logo.png"
                   alt="Molla Logo"
                   width={105}
@@ -23,7 +23,7 @@ const Header = () => {
               </a>
             </div>
             <div className="header-right">
-            <nav className=" main-nav">
+              <nav className=" main-nav">
                 <ul className="menu sf-arrows">
                   <li>
                     <Link to="/categorylist">Product</Link>
