@@ -1,7 +1,6 @@
 import React from "react";
-import Header from "./Header";
 
-const ContactUs = () => {
+const ContactDetail = () => {
   return (
     <>
       <div
@@ -196,4 +195,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default ContactDetail;

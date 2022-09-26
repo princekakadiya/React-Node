@@ -50,7 +50,7 @@ const ProductList = () => {
                         Sed pretium, ligula sollicitudin laoreet viverra, tortor
                         libero sodales leo, eget blandit nunc tortor eu nibh.{" "}
                       </p>
-                      <Link to="productdetail" className="read-more">
+                      <Link to="/productdetail" className="read-more">
                         More Info
                       </Link>
                     </div>
@@ -430,6 +430,13 @@ const ProductList = () => {
         {/* End .page-content */}
       </main>
       {/* </div> */}
+
+      <button id="scroll-top" title="Back to Top">
+        <i className="icon-arrow-up" />
+      </button>
+      {/* Mobile Menu */}
+      <div className="mobile-menu-overlay" />
+      {/* End .mobil-menu-overlay */}
     </>
   );
 };
