@@ -7,7 +7,7 @@ const SmallIntro = () => {
       <div className="pt-6 pb-5 mb-6 mb-lg-4">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 mt-5">
+            <div className="col-lg-5 mt-5" data-aos="fade-right">
               <h1 className="display-1 ml-5">
                 <strong>Who We Are</strong>
               </h1>
@@ -23,7 +23,7 @@ const SmallIntro = () => {
                 potenti. Sed egestas, ante et vulputate volutpat, uctus metus
                 libero eu augue.{" "}
               </p>
-              <div className="ml-5 mt-5 col-5">
+              <div className="ml-4 mt-5 col-5">
                 <button type="button" class="btn btn-lg btn-outline-success">
                   About US
                   <i className="icon-long-arrow-right" />
@@ -31,7 +31,7 @@ const SmallIntro = () => {
               </div>
             </div>
             {/* End .col-lg-5 */}
-            <div className="col-lg-6 offset-lg-1">
+            <div className="col-lg-6 offset-lg-1" data-aos="fade-left">
               <div className="about-images">
                 <img
                   src="assets/images/about/img-1.jpg"

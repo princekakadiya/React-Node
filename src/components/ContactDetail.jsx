@@ -3,13 +3,6 @@ import React from "react";
 const ContactDetail = () => {
   return (
     <>
-      <div
-        className="page-header text-center mb-5 "
-        style={{
-          backgroundImage: 'url("assets/images/page-header-bg.jpg")',
-        }}
-      >
-      </div>
       <div className="page-content pb-0">
         <div className="container">
           <div className="row">
