@@ -18,7 +18,7 @@ const Home = () => {
           <div
             className="page-header text-center"
             style={{
-              backgroundImage: 'url("assets/images/page-header-bg.jpg")',
+              background: "#dcedc8",
             }}
           >
             {/* End .container */}
@@ -56,23 +56,7 @@ const Home = () => {
           <span className="mobile-menu-close">
             <i className="icon-close" />
           </span>
-          <form action="#" method="get" className="mobile-search">
-            <label htmlFor="mobile-search" className="sr-only">
-              Search
-            </label>
-            <input
-              type="search"
-              className="form-control"
-              name="mobile-search"
-              id="mobile-search"
-              placeholder="Search in..."
-              required=""
-            />
-            <button className="btn btn-primary" type="submit">
-              <i className="icon-search" />
-            </button>
-          </form>
-          <nav className="mobile-nav">
+          <nav className="mobile-nav mt-5">
             <ul className="mobile-menu">
               <li className="active">
                 <a href="/">Home</a>

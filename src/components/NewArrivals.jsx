@@ -24,7 +24,7 @@ const NewArrivals = () => {
                     <figure className="product-media">
                       <Link to="/productdetail">
                         <img
-                          src="assets/images/demos/demo-5/products/product-5-1.jpg"
+                          src="assets/images/demos/demo-5/products/1.jpg"
                           alt="Product image"
                           className="product-image"
                         />
@@ -72,14 +72,9 @@ const NewArrivals = () => {
                     <figure className="product-media">
                       <a href="product.html">
                         <img
-                          src="assets/images/demos/demo-5/products/product-6-1.jpg"
+                          src="assets/images/demos/demo-5/products/2.jpg"
                           alt="Product image"
                           className="product-image"
-                        />
-                        <img
-                          src="assets/images/demos/demo-5/products/product-6-2.jpg"
-                          alt="Product image"
-                          className="product-image-hover"
                         />
                       </a>
                       <div className="product-action-vertical">
@@ -125,14 +120,9 @@ const NewArrivals = () => {
                     <figure className="product-media">
                       <a href="product.html">
                         <img
-                          src="assets/images/demos/demo-5/products/product-7-1.jpg"
+                          src="assets/images/demos/demo-5/products/3.jpg"
                           alt="Product image"
                           className="product-image"
-                        />
-                        <img
-                          src="assets/images/demos/demo-5/products/product-7-2.jpg"
-                          alt="Product image"
-                          className="product-image-hover"
                         />
                       </a>
                       <div className="product-action-vertical">
@@ -188,14 +178,9 @@ const NewArrivals = () => {
                     <figure className="product-media">
                       <a href="product.html">
                         <img
-                          src="assets/images/demos/demo-5/products/product-8-1.jpg"
+                          src="assets/images/demos/demo-5/products/4.jpg"
                           alt="Product image"
                           className="product-image"
-                        />
-                        <img
-                          src="assets/images/demos/demo-5/products/product-8-2.jpg"
-                          alt="Product image"
-                          className="product-image-hover"
                         />
                       </a>
                       <div className="product-action-vertical">
@@ -238,14 +223,9 @@ const NewArrivals = () => {
                     <figure className="product-media">
                       <a href="product.html">
                         <img
-                          src="assets/images/demos/demo-5/products/product-9-1.jpg"
+                          src="assets/images/demos/demo-5/products/5.jpg"
                           alt="Product image"
                           className="product-image"
-                        />
-                        <img
-                          src="assets/images/demos/demo-5/products/product-9-2.jpg"
-                          alt="Product image"
-                          className="product-image-hover"
                         />
                       </a>
                       <div className="product-action-vertical">
@@ -304,14 +284,9 @@ const NewArrivals = () => {
                     <figure className="product-media">
                       <a href="product.html">
                         <img
-                          src="assets/images/demos/demo-5/products/product-10-1.jpg"
+                          src="assets/images/demos/demo-5/products/6.jpg"
                           alt="Product image"
                           className="product-image"
-                        />
-                        <img
-                          src="assets/images/demos/demo-5/products/product-10-2.jpg"
-                          alt="Product image"
-                          className="product-image-hover"
                         />
                       </a>
                       <div className="product-action-vertical">
@@ -354,14 +329,9 @@ const NewArrivals = () => {
                     <figure className="product-media">
                       <a href="product.html">
                         <img
-                          src="assets/images/demos/demo-5/products/product-11-1.jpg"
+                          src="assets/images/demos/demo-5/products/7.jpg"
                           alt="Product image"
                           className="product-image"
-                        />
-                        <img
-                          src="assets/images/demos/demo-5/products/product-11-2.jpg"
-                          alt="Product image"
-                          className="product-image-hover"
                         />
                       </a>
                       <div className="product-action-vertical">
@@ -404,14 +374,9 @@ const NewArrivals = () => {
                     <figure className="product-media">
                       <a href="product.html">
                         <img
-                          src="assets/images/demos/demo-5/products/product-12-1.jpg"
+                          src="assets/images/demos/demo-5/products/8.jpg"
                           alt="Product image"
                           className="product-image"
-                        />
-                        <img
-                          src="assets/images/demos/demo-5/products/product-12-2.jpg"
-                          alt="Product image"
-                          className="product-image-hover"
                         />
                       </a>
                       <div className="product-action-vertical">

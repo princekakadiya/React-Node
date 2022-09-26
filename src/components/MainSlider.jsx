@@ -13,7 +13,7 @@ const MainSlider = () => {
             className="intro-slide"
             style={{
               backgroundImage:
-                "url(assets/images/demos/demo-5/slider/slide-1.jpg)",
+                "url(assets/images/demos/demo-5/slider/11.jpg)",
             }}
           >
             <div className="container intro-content text-center">
