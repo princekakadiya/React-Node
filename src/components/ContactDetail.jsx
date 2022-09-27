@@ -136,19 +136,16 @@ const ContactDetail = () => {
                   placeholder="Message *"
                   defaultValue={""}
                 />
-                <button
-                  type="submit"
-                  style={{ border: "1px solid #39f" }}
-                  className="shadow-none btn btn-outline-primary-2 btn-minwidth-sm"
-                >
-                  <span>SUBMIT</span>
+
+                <button type="submit" class="btn btn-lg btn-outline-success">
+                  About US
                   <i className="icon-long-arrow-right" />
                 </button>
               </form>
             </div>
           </div>
         </div>
-        <div id="map">
+        <div id="map" className="mt-5">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.940772264116!2d72.5011472149193!3d23.025946784951348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b3bfd772303%3A0xbfb4ae854688a1ac!2sSANKALP%20ICONIC%20TOWER%2C%20Sankalp%20Iconic%20Tower%2C%20Sanidhya%2C%20Ahmedabad%2C%20Gujarat%20380054!5e0!3m2!1sen!2sin!4v1648551631432!5m2!1sen!2sin"
             width="100%"
@@ -165,4 +162,3 @@ const ContactDetail = () => {
 };
 
 export default ContactDetail;
-
