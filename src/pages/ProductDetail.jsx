@@ -75,6 +75,7 @@ const ProductDetail = () => {
                           className="social-icon"
                           title="Facebook"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-facebook-f" />
                         </a>
@@ -83,6 +84,7 @@ const ProductDetail = () => {
                           className="social-icon"
                           title="Twitter"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-twitter" />
                         </a>
@@ -91,6 +93,7 @@ const ProductDetail = () => {
                           className="social-icon"
                           title="Instagram"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-instagram" />
                         </a>
@@ -99,6 +102,7 @@ const ProductDetail = () => {
                           className="social-icon"
                           title="Pinterest"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="icon-pinterest" />
                         </a>

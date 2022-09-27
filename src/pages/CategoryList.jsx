@@ -214,8 +214,6 @@ const CategoryList = () => {
                   <a href="/" className="sidebar-filter-clear">
                     Clean All
                   </a>
-                  <a  className="sidebar-filter-clear">
-                  </a>
                 </div>
                 <div className="widget">
                   <h3 className="widget-title">Browse Category</h3>

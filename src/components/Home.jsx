@@ -80,6 +80,7 @@ const Home = () => {
               href="https://www.facebook.com/"
               className="social-icon"
               target="_blank"
+              rel="noreferrer"
               title="Facebook"
             >
               <i className="icon-facebook-f" />
@@ -88,6 +89,7 @@ const Home = () => {
               href="https://www.twitter.com/"
               className="social-icon"
               target="_blank"
+              rel="noreferrer"
               title="Twitter"
             >
               <i className="icon-twitter" />
@@ -96,6 +98,7 @@ const Home = () => {
               href="https://www.instagram.com/"
               className="social-icon"
               target="_blank"
+              rel="noreferrer"
               title="Instagram"
             >
               <i className="icon-instagram" />
@@ -104,6 +107,7 @@ const Home = () => {
               href="https://www.youtube.com/"
               className="social-icon"
               target="_blank"
+              rel="noreferrer"
               title="Youtube"
             >
               <i className="icon-youtube" />

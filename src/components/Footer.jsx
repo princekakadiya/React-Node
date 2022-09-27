@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -27,11 +26,11 @@ const Footer = () => {
                             alt=""
                           />
                           <div className="instagram-feed-content">
-                            <a >
+                            <a href="/" >
                               <i className="icon-heart-o" />
                               44
                             </a>
-                            <a >
+                            <a href="/" >
                               <i className="icon-comments" />
                               55
                             </a>
@@ -45,11 +44,11 @@ const Footer = () => {
                             alt=""
                           />
                           <div className="instagram-feed-content">
-                            <a >
+                            <a href="/" >
                               <i className="icon-heart-o" />
                               128
                             </a>
-                            <a >
+                            <a href="/" >
                               <i className="icon-comments" />
                               99
                             </a>
@@ -63,11 +62,11 @@ const Footer = () => {
                             alt=""
                           />
                           <div className="instagram-feed-content">
-                            <a >
+                            <a href="/" >
                               <i className="icon-heart-o" />
                               433
                             </a>
-                            <a >
+                            <a href="/" >
                               <i className="icon-comments" />
                               25
                             </a>
@@ -83,11 +82,11 @@ const Footer = () => {
                             alt=""
                           />
                           <div className="instagram-feed-content">
-                            <a >
+                            <a href="/" >
                               <i className="icon-heart-o" />
                               588
                             </a>
-                            <a >
+                            <a href="/" >
                               <i className="icon-comments" />
                               44
                             </a>
@@ -103,11 +102,11 @@ const Footer = () => {
                             alt=""
                           />
                           <div className="instagram-feed-content">
-                            <a >
+                            <a href="/" >
                               <i className="icon-heart-o" />
                               87
                             </a>
-                            <a >
+                            <a href="/" >
                               <i className="icon-comments" />
                               23
                             </a>
@@ -123,11 +122,11 @@ const Footer = () => {
                             alt=""
                           />
                           <div className="instagram-feed-content">
-                            <a >
+                            <a href="/" >
                               <i className="icon-heart-o" />
                               87
                             </a>
-                            <a >
+                            <a href="/" >
                               <i className="icon-comments" />
                               23
                             </a>
@@ -238,17 +237,17 @@ const Footer = () => {
             {/* End .footer-copyright */}
             <ul className="footer-menu">
               <li>
-                <a  className="text-white">Terms Of Use</a>
+                <a href="/"  className="text-white">Terms Of Use</a>
               </li>
               <li>
-                <a  className="text-white">Privacy Policy</a>
+                <a href="/"  className="text-white">Privacy Policy</a>
               </li>
             </ul>
             {/* End .footer-menu */}
             <div className="social-icons social-icons-color">
               <span className="social-label text-white">Social Media</span>
               <a
-                
+                href="/"
                 className="social-icon social-facebook"
                 title="Facebook"
                 target="_blank"
@@ -256,7 +255,7 @@ const Footer = () => {
                 <i className="icon-facebook-f" />
               </a>
               <a
-                
+                href="/"
                 className="social-icon social-twitter"
                 title="Twitter"
                 target="_blank"
@@ -264,7 +263,7 @@ const Footer = () => {
                 <i className="icon-twitter" />
               </a>
               <a
-                
+                href="/"
                 className="social-icon social-instagram"
                 title="Instagram"
                 target="_blank"
@@ -272,7 +271,7 @@ const Footer = () => {
                 <i className="icon-instagram" />
               </a>
               <a
-                
+                href="/"
                 className="social-icon social-youtube"
                 title="Youtube"
                 target="_blank"
@@ -280,7 +279,7 @@ const Footer = () => {
                 <i className="icon-youtube" />
               </a>
               <a
-                
+                href="/"
                 className="social-icon social-pinterest"
                 title="Pinterest"
                 target="_blank"
