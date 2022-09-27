@@ -232,7 +232,7 @@ const Footer = () => {
         {/* End .footer-middle */}
         <div className="footer-bottom ">
           <div className="container">
-            <p className="footer-copyright">
+            <p className="footer-copyright text-white">
               Copyright © 2019 Arrayah Store. All Rights Reserved.
             </p>
             {/* End .footer-copyright */}
@@ -246,7 +246,7 @@ const Footer = () => {
             </ul>
             {/* End .footer-menu */}
             <div className="social-icons social-icons-color">
-              <span className="social-label">Social Media</span>
+              <span className="social-label text-white">Social Media</span>
               <a
                 href="#"
                 className="social-icon social-facebook"
