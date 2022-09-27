@@ -210,9 +210,9 @@ const CategoryList = () => {
                   <label>
                     <i className="icon-close" />
                     Filters
+                    Clean All
                   </label>
                   <a href="#" className="sidebar-filter-clear">
-                    Clean All
                   </a>
                 </div>
                 <div className="widget">

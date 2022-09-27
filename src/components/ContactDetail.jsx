@@ -3,7 +3,12 @@ import React from "react";
 const ContactDetail = () => {
   return (
     <>
-      <div className="page-content pb-0">
+      <div className="page-content pb-0 pt-5"
+      style={{ backgroundImage: "url(assets/images/background.jpg)",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "100%"
+}}
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mb-2 mb-lg-0">
