@@ -138,7 +138,7 @@ const ContactDetail = () => {
                 />
 
                 <button type="submit" class="btn btn-lg btn-outline-success">
-                  About US
+                  Submit
                   <i className="icon-long-arrow-right" />
                 </button>
               </form>
