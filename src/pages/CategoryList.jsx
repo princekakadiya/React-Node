@@ -31,7 +31,7 @@ const CategoryList = () => {
                         <div className="banner banner-cat banner-badge">
                           <Link to="/productlist">
                             <img
-                              src="assets/images/category/fullwidth-page/banner-1.jpg"
+                              src="assets/images/category/fullwidth-page/1.jpg"
                               alt="Banner"
                             />
                           </Link>
@@ -56,7 +56,7 @@ const CategoryList = () => {
                         <div className="banner banner-cat banner-badge">
                           <a href="#">
                             <img
-                              src="assets/images/category/fullwidth-page/banner-2.jpg"
+                              src="assets/images/category/fullwidth-page/2.jpg"
                               alt="Banner"
                             />
                           </a>
@@ -76,7 +76,7 @@ const CategoryList = () => {
                         <div className="banner banner-cat banner-badge">
                           <a href="#">
                             <img
-                              src="assets/images/category/fullwidth-page/banner-3.jpg"
+                              src="assets/images/category/fullwidth-page/3.jpg"
                               alt="Banner"
                             />
                           </a>
@@ -96,7 +96,7 @@ const CategoryList = () => {
                         <div className="banner banner-cat banner-badge">
                           <a href="#">
                             <img
-                              src="assets/images/category/fullwidth-page/banner-4.jpg"
+                              src="assets/images/category/fullwidth-page/4.jpg"
                               alt="Banner"
                             />
                           </a>
@@ -122,7 +122,7 @@ const CategoryList = () => {
                         <div className="banner banner-cat banner-badge">
                           <a href="#">
                             <img
-                              src="assets/images/category/fullwidth-page/banner-5.jpg"
+                              src="assets/images/category/fullwidth-page/5.jpg"
                               alt="Banner"
                             />
                           </a>
@@ -139,7 +139,7 @@ const CategoryList = () => {
                         <div className="banner banner-cat banner-badge">
                           <a href="#">
                             <img
-                              src="assets/images/category/fullwidth-page/banner-6.jpg"
+                              src="assets/images/category/fullwidth-page/6.jpg"
                               alt="Banner"
                             />
                           </a>
@@ -159,7 +159,7 @@ const CategoryList = () => {
                         <div className="banner banner-cat banner-badge">
                           <a href="#">
                             <img
-                              src="assets/images/category/fullwidth-page/banner-7.jpg"
+                              src="assets/images/category/fullwidth-page/7.jpg"
                               alt="Banner"
                             />
                           </a>
@@ -176,7 +176,7 @@ const CategoryList = () => {
                         <div className="banner banner-cat banner-badge">
                           <a href="#">
                             <img
-                              src="assets/images/category/fullwidth-page/banner-8.jpg"
+                              src="assets/images/category/fullwidth-page/8.jpg"
                               alt="Banner"
                             />
                           </a>

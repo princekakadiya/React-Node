@@ -5,7 +5,7 @@ const Speciality = () => {
     <>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-4" data-aos="fade">
             <div className="icon-box icon-box-sm text-center">
               <span className="icon-box-icon">
                 <i className="icon-puzzle-piece" />
@@ -19,7 +19,7 @@ const Speciality = () => {
             {/* End .icon-box */}
           </div>
           {/* End .col-lg-4 col-sm-4 col-xs-4 */}
-          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-4" data-aos="fade">
             <div className="icon-box icon-box-sm text-center">
               <span className="icon-box-icon">
                 <i className="icon-life-ring" />
@@ -33,7 +33,7 @@ const Speciality = () => {
             {/* End .icon-box */}
           </div>
           {/* End .col-lg-4 col-sm-4 col-xs-4 */}
-          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-4" data-aos="fade">
             <div className="icon-box icon-box-sm text-center">
               <span className="icon-box-icon">
                 <i className="icon-life-ring" />
@@ -47,7 +47,7 @@ const Speciality = () => {
             {/* End .icon-box */}
           </div>
           {/* End .col-lg-4 col-sm-4 col-xs-4 */}
-          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-4" data-aos="fade">
             <div className="icon-box icon-box-sm text-center">
               <span className="icon-box-icon">
                 <i className="icon-life-ring" />
@@ -61,7 +61,7 @@ const Speciality = () => {
             {/* End .icon-box */}
           </div>
           {/* End .col-lg-4 col-sm-4 col-xs-4 */}
-          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div className="col-lg-2 col-md-2 col-sm-4 col-xs-4" data-aos="fade">
             <div className="icon-box icon-box-sm text-center">
               <span className="icon-box-icon">
                 <i className="icon-heart-o" />

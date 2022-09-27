@@ -6,7 +6,7 @@ const NewArrivals = () => {
     <>
       <div className="container pt-4 new-arrivals">
         <div className="heading heading-center mb-5">
-          <h2 className="title">New Arrivals</h2>
+          <h2 className="title" data-aos="fade-down">New Arrivals</h2>
           {/* End .title */}
         </div>
         {/* End .heading */}

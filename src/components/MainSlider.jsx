@@ -13,25 +13,39 @@ const MainSlider = () => {
             className="intro-slide"
             style={{
               backgroundImage:
+                "url(assets/images/demos/demo-5/slider/12.jpg)",
+            }}
+          >
+            <div className="container intro-content text-center">
+              <h3 className="intro-subtitle text-success">Don’t Miss</h3>
+              <h1 className="intro-title text-success">Mystery Deals</h1>
+              <div className="intro-text text-success">Online Only</div>
+              <a href="category.html" className="btn btn-success">
+                Discover NOW
+              </a>
+            </div>
+          </div>
+          <div
+            className="intro-slide"
+            style={{
+              backgroundImage:
                 "url(assets/images/demos/demo-5/slider/11.jpg)",
             }}
           >
             <div className="container intro-content text-center">
-              <h3 className="intro-subtitle text-white">Don’t Miss</h3>
-              {/* End .h3 intro-subtitle */}
-              <h1 className="intro-title text-white">Mystery Deals</h1>
-              {/* End .intro-title */}
-              <div className="intro-text text-white">Online Only</div>
-              {/* End .intro-text */}
-              <a href="category.html" className="btn btn-primary">
-                Discover NOW
+              <h3 className="intro-subtitle text-success">Limited time only</h3>
+              <h1 className="intro-title text-success">Treat your self</h1>
+              <div className="intro-text text-success">Up to 50% off</div>
+              <a href="category.html" className="btn btn-success">
+                Shop NOW
               </a>
             </div>
-            </div>
-            </div>
-            </div>
-        </>
-    );
+          </div>
+        </div>
+        <span className="slider-loader text-success" />
+      </div>
+    </>
+  );
 };
 
 export default MainSlider;
