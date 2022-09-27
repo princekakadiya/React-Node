@@ -16,7 +16,7 @@ const Header = () => {
                 <img
                   src="assets/images/demos/demo-5/logo-a-removebg-preview.png"
                   // src="src/components/logo.png"
-                  alt="Molla Logo"
+                  alt="Arrayah Logo"
                   width={105}
                   height={25}
                 />
@@ -26,7 +26,9 @@ const Header = () => {
               <nav className=" main-nav">
                 <ul className="menu sf-arrows">
                   <li>
-                    <Link to="/categorylist">Product</Link>
+                    <Link style={{ fontWeight: "0" }} to="/categorylist">
+                      Product
+                    </Link>
                   </li>
                   <li>
                     <a href="" className="sf-with-ul">

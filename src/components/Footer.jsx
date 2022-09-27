@@ -193,7 +193,7 @@ const Footer = () => {
         <div className="footer-bottom ">
           <div className="container">
             <p className="footer-copyright">
-              Copyright © 2019 Molla Store. All Rights Reserved.
+              Copyright © 2019 Arrayah Store. All Rights Reserved.
             </p>
             {/* End .footer-copyright */}
             <ul className="footer-menu">
