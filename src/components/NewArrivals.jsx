@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NewArrivals = () => {
   return (
     <>
-      <div className="container pt-5 pb-5 new-arrivals">
+      <div className="container pt-6 pb-5 new-arrivals">
         <div className="heading heading-center mb-5">
           <h2 className="title" data-aos="fade-down">New Arrivals</h2>
           {/* End .title */}
@@ -434,7 +434,7 @@ const NewArrivals = () => {
             className="btn btn-outline-primary-2 btn-round btn-more"
           >
             <button type="button" class="btn btn-lg btn-outline-success">
-              About US
+              Load More
               <i className="icon-long-arrow-right" />
             </button>
           </Link>

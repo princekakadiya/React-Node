@@ -5,40 +5,157 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
-        <div className="footer-middle ">
+        <div className="footer-middle">
           <div className="container">
             <div className="row">
-              <div className="col-sm-12 col-lg-6">
+              <div className="col-sm-6 col-xs-6 col-md-6 col-lg-6">
                 <div className="widget widget-about">
                   <img
-                    src="assets/images/demos/demo-5/logo-footer.png"
+                    src="assets/images/demos/demo-5/logo-a.png"
                     className="footer-logo"
                     alt="Footer Logo"
                     width={105}
                     height={25}
                   />
-                  <p>
-                    Praesent dapibus, neque id cursus ucibus, tortor neque
-                    egestas augue, eu vulputate magna eros eu erat.
-                  </p>
-                  <div className="widget-about-info">
+                  <div className="instagram-feed-container">
                     <div className="row">
-                      <div className="col-sm-6 col-md-4">
-                        <span className="widget-about-title">
-                          Got Question? Call us 24/7
-                        </span>
-                        <a href="tel:123456789">+0123 456 789</a>
+                      <div className="feed-col col-md-3 col-sm-3">
+                        <div className="instagram-feed">
+                          <img
+                            src="assets/images/demos/demo-5/instagram/4.jpg"
+                            alt="img"
+                          />
+                          <div className="instagram-feed-content">
+                            <a href="#">
+                              <i className="icon-heart-o" />
+                              44
+                            </a>
+                            <a href="#">
+                              <i className="icon-comments" />
+                              55
+                            </a>
+                          </div>
+                          {/* End .instagram-feed-content */}
+                        </div>
+                        {/* End .instagram-feed */}
                       </div>
-                      {/* End .col-sm-6 */}
+                      {/* End .feed-col */}
+                      <div className="feed-col col-md-3 col-sm-3">
+                        <div className="instagram-feed">
+                          <img
+                            src="assets/images/demos/demo-5/instagram/5.jpg"
+                            alt="img"
+                          />
+                          <div className="instagram-feed-content">
+                            <a href="#">
+                              <i className="icon-heart-o" />
+                              128
+                            </a>
+                            <a href="#">
+                              <i className="icon-comments" />
+                              99
+                            </a>
+                          </div>
+                          {/* End .instagram-feed-content */}
+                        </div>
+                        {/* End .instagram-feed */}
+                      </div>
+                      {/* End .feed-col */}
+                      <div className="feed-col col-md-3 col-sm-3">
+                        <div className="instagram-feed">
+                          <img
+                            src="assets/images/demos/demo-5/instagram/6.jpg"
+                            alt="img"
+                          />
+                          <div className="instagram-feed-content">
+                            <a href="#">
+                              <i className="icon-heart-o" />
+                              433
+                            </a>
+                            <a href="#">
+                              <i className="icon-comments" />
+                              25
+                            </a>
+                          </div>
+                          {/* End .instagram-feed-content */}
+                        </div>
+                        {/* End .instagram-feed */}
+                      </div>
+                      {/* End .feed-col */}
                     </div>
                     {/* End .row */}
+                    <div className="row">
+                      <div className="feed-col col-md-3 col-sm-3">
+                        <div className="instagram-feed">
+                          <img
+                            src="assets/images/demos/demo-5/instagram/7.jpg"
+                            alt="img"
+                          />
+                          <div className="instagram-feed-content">
+                            <a href="#">
+                              <i className="icon-heart-o" />
+                              588
+                            </a>
+                            <a href="#">
+                              <i className="icon-comments" />
+                              44
+                            </a>
+                          </div>
+                          {/* End .instagram-feed-content */}
+                        </div>
+                        {/* End .instagram-feed */}
+                      </div>
+                      {/* End .feed-col */}
+                      <div className="feed-col col-md-3 col-sm-3">
+                        <div className="instagram-feed">
+                          <img
+                            src="assets/images/demos/demo-5/instagram/8.jpg"
+                            alt="img"
+                          />
+                          <div className="instagram-feed-content">
+                            <a href="#">
+                              <i className="icon-heart-o" />
+                              87
+                            </a>
+                            <a href="#">
+                              <i className="icon-comments" />
+                              23
+                            </a>
+                          </div>
+                          {/* End .instagram-feed-content */}
+                        </div>
+                        {/* End .instagram-feed */}
+                      </div>
+                      {/* End .feed-col */}
+                      <div className="feed-col col-md-3 col-sm-3">
+                        <div className="instagram-feed">
+                          <img
+                            src="assets/images/demos/demo-5/instagram/9.jpg"
+                            alt="img"
+                          />
+                          <div className="instagram-feed-content">
+                            <a href="#">
+                              <i className="icon-heart-o" />
+                              87
+                            </a>
+                            <a href="#">
+                              <i className="icon-comments" />
+                              23
+                            </a>
+                          </div>
+                          {/* End .instagram-feed-content */}
+                        </div>
+                        {/* End .instagram-feed */}
+                      </div>
+                      {/* End .feed-col */}
+                    </div>
                   </div>
-                  {/* End .widget-about-info */}
+                  {/* End .instagra-feed-container */}
                 </div>
                 {/* End .widget about-widget */}
               </div>
               {/* End .col-sm-12 col-lg-3 */}
-              <div className="col-sm-4 col-lg-2">
+              <div className="col-sm-4 col-md-4 col-lg-4">
                 <div className="widget">
                   <Link to="productlist">
                     <h4 className="widget-title">Product</h4>
@@ -49,73 +166,47 @@ const Footer = () => {
                   <a href="productlist">
                     <h4 className="widget-title">Contact Us</h4>
                   </a>
+                  <div className="widget-about-info">
+                    <div className="row">
+                      <div className="col-sm-12 col-md-12">
+                        <span className="widget-about-title">
+                          Got Question? Call us 24/7
+                        </span>
+                        <a href="tel:123456789">+0123 456 789</a>
+                      </div>
+                      {/* End .col-sm-6 */}
+                    </div>
+                    {/* End .row */}
+                  </div>
+                  {/* End .widget */}
                 </div>
-
                 {/* End .widget */}
               </div>
               {/* End .col-sm-4 col-lg-3 */}
-              <div className="col-sm-4 col-lg-2">
+              <div className="col-sm-2 col-md-2 col-lg-2">
                 <div className="widget">
                   <h4 className="widget-title">Media</h4>
                   {/* End .widget-title */}
                   <ul className="widget-list">
                     <li>
-                      <a href="#">Blog</a>
+                      <a href="blog">Blog</a>
                     </li>
                     <li>
-                      <a href="#">Gallery</a>
-                    </li>
-                    <li>
-                      <a href="#">Returns</a>
-                    </li>
-                    <li>
-                      <a href="#">Shipping</a>
-                    </li>
-                    <li>
-                      <a href="#">Terms and conditions</a>
-                    </li>
-                    <li>
-                      <a href="#">Privacy Policy</a>
+                      <a href="gallery">Gallery</a>
                     </li>
                   </ul>
                   {/* End .widget-list */}
                 </div>
-                {/* End .widget */}
               </div>
               {/* End .col-sm-4 col-lg-3 */}
-              <div className="col-sm-4 col-lg-2">
-                <div className="widget">
-                  <h4 className="widget-title">My Account</h4>
-                  {/* End .widget-title */}
-                  <ul className="widget-list">
-                    <li>
-                      <a href="#">Sign In</a>
-                    </li>
-                    <li>
-                      <a href="cart.html">View Cart</a>
-                    </li>
-                    <li>
-                      <a href="#">My Wishlist</a>
-                    </li>
-                    <li>
-                      <a href="#">Track My Order</a>
-                    </li>
-                    <li>
-                      <a href="#">Help</a>
-                    </li>
-                  </ul>
-                  {/* End .widget-list */}
-                </div>
-                {/* End .widget */}
-              </div>
-              {/* End .col-sm-64 col-lg-3 */}
             </div>
             {/* End .row */}
           </div>
           {/* End .container */}
         </div>
+
         {/* End .footer-middle */}
-        <div className="footer-bottom">
+        <div className="footer-bottom ">
           <div className="container">
             <p className="footer-copyright">
               Copyright © 2019 Molla Store. All Rights Reserved.
