@@ -6,7 +6,7 @@ const ContactDetail = () => {
       <div className="page-content pb-0 pt-5"
       style={{ backgroundImage: "url(assets/images/background.jpg)",
       backgroundRepeat: "no-repeat",
-      backgroundSize: "100%"
+      backgroundSize: "auto"
 }}
       >
         <div className="container">

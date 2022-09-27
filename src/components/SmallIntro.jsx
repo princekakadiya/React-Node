@@ -7,7 +7,7 @@ const SmallIntro = () => {
       <div className="pt-4 pb-5 mb-6 mb-lg-4"
         style={{ backgroundImage: "url(assets/images/background.jpg)",
                  backgroundRepeat: "no-repeat",
-                 backgroundSize: "100%"
+                 backgroundSize: "auto"
        }}
       >
         <div className="container">

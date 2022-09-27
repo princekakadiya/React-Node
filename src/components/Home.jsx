@@ -39,7 +39,7 @@ const Home = () => {
           {/* End .mb-2 */}
           <Counter />
           {/* ---------------Instagram last posts ---- */}
-          <InstaPost />
+          {/* <InstaPost /> */}
           {/* --------------Testimonials ------------- */}
           <Testimonials />
           {/* ------------------Contact Us------------ */}
