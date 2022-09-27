@@ -16,7 +16,7 @@ const Header = () => {
                 <img
                   src="assets/images/demos/demo-5/logo-a-removebg-preview.png"
                   // src="src/components/logo.png"
-                  alt="Arrayah Logo"
+                  alt=""
                   width={105}
                   height={25}
                 />
@@ -31,7 +31,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <a href="" className="sf-with-ul">
+                    <a href="/" className="sf-with-ul">
                       Media
                     </a>
                     <ul>

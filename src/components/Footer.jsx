@@ -15,7 +15,7 @@ const Footer = () => {
                     <img
                       src="assets/images/demos/demo-5/logo-a.png"
                       className="footer-logo"
-                      alt="Footer Logo"
+                      alt=""
                       width={105}
                       height={25}
                     />
@@ -24,7 +24,7 @@ const Footer = () => {
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/4.jpg"
-                            alt="img"
+                            alt=""
                           />
                           <div className="instagram-feed-content">
                             <a >
@@ -42,7 +42,7 @@ const Footer = () => {
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/5.jpg"
-                            alt="img"
+                            alt=""
                           />
                           <div className="instagram-feed-content">
                             <a >
@@ -60,7 +60,7 @@ const Footer = () => {
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/6.jpg"
-                            alt="img"
+                            alt=""
                           />
                           <div className="instagram-feed-content">
                             <a >
@@ -80,7 +80,7 @@ const Footer = () => {
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/7.jpg"
-                            alt="img"
+                            alt=""
                           />
                           <div className="instagram-feed-content">
                             <a >
@@ -100,7 +100,7 @@ const Footer = () => {
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/8.jpg"
-                            alt="img"
+                            alt=""
                           />
                           <div className="instagram-feed-content">
                             <a >
@@ -120,7 +120,7 @@ const Footer = () => {
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/9.jpg"
-                            alt="img"
+                            alt=""
                           />
                           <div className="instagram-feed-content">
                             <a >
@@ -148,22 +148,22 @@ const Footer = () => {
             {/* Links */}
             <h4 className="text-uppercase text-white mb-4">Products</h4>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 Angular
               </a>
             </p>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 React
               </a>  
             </p>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 Vue
               </a>
             </p>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 Laravel
               </a>
             </p>
@@ -172,22 +172,22 @@ const Footer = () => {
             {/* Links */}
             <h4 className="text-uppercase text-white mb-4">Products</h4>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 Angular
               </a>
             </p>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 React
               </a>
             </p>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 Vue
               </a>
             </p>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 Laravel
               </a>
             </p>
@@ -196,22 +196,22 @@ const Footer = () => {
             {/* Links */}
             <h4 className="text-uppercase text-white mb-4">Products</h4>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 Angular
               </a>
             </p>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 React
               </a>
             </p>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 Vue
               </a>
             </p>
             <p>
-              <a href="#!" className="text-white">
+              <a href="/" className="text-white">
                 Laravel
               </a>
             </p>

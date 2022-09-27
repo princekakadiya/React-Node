@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const SmallIntro = () => {
   return (
     <>
-      <div className="pt-4 pb-5 mb-6 mb-lg-4"
+      <div className="pt-4 pb-5 mb-6 mb-lg-4 mt-5"
         style={{ backgroundImage: "url(assets/images/background.jpg)",
                  backgroundRepeat: "no-repeat",
                  backgroundSize: "auto"

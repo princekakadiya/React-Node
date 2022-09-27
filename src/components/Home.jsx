@@ -1,5 +1,4 @@
 import React from "react";
-import Brand from "./Brand";
 import ContactDetail from "./ContactDetail";
 import Counter from "./Counter";
 import InstaPost from "./InstaPost";
@@ -26,7 +25,7 @@ const Home = () => {
           {/* ---------------Main slider------------  */}
           <MainSlider />
           {/* -----------Company of brand------------ */}
-          <Brand />
+          {/* <Brand /> */}
           {/* ----------Company details-------------- */}
           <SmallIntro />
           <Speciality />
