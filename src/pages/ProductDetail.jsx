@@ -68,13 +68,13 @@ const ProductDetail = () => {
                     <div className="product-details-footer">
                       <div className="product-cat">
                         <span>Category:</span>
-                        <a href="#">Women</a>
+                        <a >Women</a>
                       </div>
                       {/* End .product-cat */}
                       <div className="social-icons social-icons-sm">
                         <span className="social-label">Share:</span>
                         <a
-                          href="#"
+                          
                           className="social-icon"
                           title="Facebook"
                           target="_blank"
@@ -82,7 +82,7 @@ const ProductDetail = () => {
                           <i className="icon-facebook-f" />
                         </a>
                         <a
-                          href="#"
+                          
                           className="social-icon"
                           title="Twitter"
                           target="_blank"
@@ -90,7 +90,7 @@ const ProductDetail = () => {
                           <i className="icon-twitter" />
                         </a>
                         <a
-                          href="#"
+                          
                           className="social-icon"
                           title="Instagram"
                           target="_blank"
@@ -98,7 +98,7 @@ const ProductDetail = () => {
                           <i className="icon-instagram" />
                         </a>
                         <a
-                          href="#"
+                          
                           className="social-icon"
                           title="Pinterest"
                           target="_blank"
@@ -264,12 +264,12 @@ const ProductDetail = () => {
                     <p>
                       We deliver to over 100 countries around the world. For
                       full details of the delivery options we offer, please view
-                      our <a href="#">Delivery information</a>
+                      our <a >Delivery information</a>
                       <br />
                       We hope you’ll love every purchase, but if you ever need
                       to return an item you can do so within a month of receipt.
                       For full details of how to make a return, please view our{" "}
-                      <a href="#">Returns information</a>
+                      <a >Returns information</a>
                     </p>
                   </div>
                   {/* End .product-desc-content */}
@@ -287,7 +287,7 @@ const ProductDetail = () => {
                       <div className="row no-gutters">
                         <div className="col-auto">
                           <h4>
-                            <a href="#">Samanta J.</a>
+                            <a >Samanta J.</a>
                           </h4>
                           <div className="ratings-container">
                             <div className="ratings">
@@ -317,11 +317,11 @@ const ProductDetail = () => {
                           </div>
                           {/* End .review-content */}
                           <div className="review-action">
-                            <a href="#">
+                            <a >
                               <i className="icon-thumbs-up" />
                               Helpful (2)
                             </a>
-                            <a href="#">
+                            <a >
                               <i className="icon-thumbs-down" />
                               Unhelpful (0)
                             </a>
@@ -337,7 +337,7 @@ const ProductDetail = () => {
                       <div className="row no-gutters">
                         <div className="col-auto">
                           <h4>
-                            <a href="#">John Doe</a>
+                            <a >John Doe</a>
                           </h4>
                           <div className="ratings-container">
                             <div className="ratings">
@@ -366,11 +366,11 @@ const ProductDetail = () => {
                           </div>
                           {/* End .review-content */}
                           <div className="review-action">
-                            <a href="#">
+                            <a >
                               <i className="icon-thumbs-up" />
                               Helpful (0)
                             </a>
-                            <a href="#">
+                            <a >
                               <i className="icon-thumbs-down" />
                               Unhelpful (0)
                             </a>
@@ -433,7 +433,7 @@ const ProductDetail = () => {
                   </a>
                   <div className="product-action-vertical">
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-wishlist btn-expandable"
                     >
                       <span>add to wishlist</span>
@@ -446,7 +446,7 @@ const ProductDetail = () => {
                       <span>Quick view</span>
                     </a>
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-compare"
                       title="Compare"
                     >
@@ -455,7 +455,7 @@ const ProductDetail = () => {
                   </div>
                   {/* End .product-action-vertical */}
                   <div className="product-action">
-                    <a href="#" className="btn-product btn-cart">
+                    <a  className="btn-product btn-cart">
                       <span>add to cart</span>
                     </a>
                   </div>
@@ -464,7 +464,7 @@ const ProductDetail = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a href="#">Women</a>
+                    <a >Women</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -486,19 +486,19 @@ const ProductDetail = () => {
                   </div>
                   {/* End .rating-container */}
                   <div className="product-nav product-nav-thumbs">
-                    <a href="#" className="active">
+                    <a  className="active">
                       <img
                         src="assets/images/products/product-4-thumb.jpg"
                         alt="product desc"
                       />
                     </a>
-                    <a href="#">
+                    <a >
                       <img
                         src="assets/images/products/product-4-2-thumb.jpg"
                         alt="product desc"
                       />
                     </a>
-                    <a href="#">
+                    <a >
                       <img
                         src="assets/images/products/product-4-3-thumb.jpg"
                         alt="product desc"
@@ -522,7 +522,7 @@ const ProductDetail = () => {
                   </a>
                   <div className="product-action-vertical">
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-wishlist btn-expandable"
                     >
                       <span>add to wishlist</span>
@@ -535,7 +535,7 @@ const ProductDetail = () => {
                       <span>Quick view</span>
                     </a>
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-compare"
                       title="Compare"
                     >
@@ -544,7 +544,7 @@ const ProductDetail = () => {
                   </div>
                   {/* End .product-action-vertical */}
                   <div className="product-action">
-                    <a href="#" className="btn-product btn-cart">
+                    <a  className="btn-product btn-cart">
                       <span>add to cart</span>
                     </a>
                   </div>
@@ -553,7 +553,7 @@ const ProductDetail = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a href="#">Jackets</a>
+                    <a >Jackets</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -589,7 +589,7 @@ const ProductDetail = () => {
                   </a>
                   <div className="product-action-vertical">
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-wishlist btn-expandable"
                     >
                       <span>add to wishlist</span>
@@ -602,7 +602,7 @@ const ProductDetail = () => {
                       <span>Quick view</span>
                     </a>
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-compare"
                       title="Compare"
                     >
@@ -611,7 +611,7 @@ const ProductDetail = () => {
                   </div>
                   {/* End .product-action-vertical */}
                   <div className="product-action">
-                    <a href="#" className="btn-product btn-cart">
+                    <a  className="btn-product btn-cart">
                       <span>add to cart</span>
                     </a>
                   </div>
@@ -620,7 +620,7 @@ const ProductDetail = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a href="#">Shoes</a>
+                    <a >Shoes</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -641,19 +641,19 @@ const ProductDetail = () => {
                   </div>
                   {/* End .rating-container */}
                   <div className="product-nav product-nav-thumbs">
-                    <a href="#" className="active">
+                    <a  className="active">
                       <img
                         src="assets/images/products/product-11-thumb.jpg"
                         alt="product desc"
                       />
                     </a>
-                    <a href="#">
+                    <a >
                       <img
                         src="assets/images/products/product-11-2-thumb.jpg"
                         alt="product desc"
                       />
                     </a>
-                    <a href="#">
+                    <a >
                       <img
                         src="assets/images/products/product-11-3-thumb.jpg"
                         alt="product desc"
@@ -676,7 +676,7 @@ const ProductDetail = () => {
                   </a>
                   <div className="product-action-vertical">
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-wishlist btn-expandable"
                     >
                       <span>add to wishlist</span>
@@ -689,7 +689,7 @@ const ProductDetail = () => {
                       <span>Quick view</span>
                     </a>
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-compare"
                       title="Compare"
                     >
@@ -698,7 +698,7 @@ const ProductDetail = () => {
                   </div>
                   {/* End .product-action-vertical */}
                   <div className="product-action">
-                    <a href="#" className="btn-product btn-cart">
+                    <a  className="btn-product btn-cart">
                       <span>add to cart</span>
                     </a>
                   </div>
@@ -707,7 +707,7 @@ const ProductDetail = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a href="#">Jumpers</a>
+                    <a >Jumpers</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -740,7 +740,7 @@ const ProductDetail = () => {
                   </a>
                   <div className="product-action-vertical">
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-wishlist btn-expandable"
                     >
                       <span>add to wishlist</span>
@@ -753,7 +753,7 @@ const ProductDetail = () => {
                       <span>Quick view</span>
                     </a>
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-compare"
                       title="Compare"
                     >
@@ -762,7 +762,7 @@ const ProductDetail = () => {
                   </div>
                   {/* End .product-action-vertical */}
                   <div className="product-action">
-                    <a href="#" className="btn-product btn-cart">
+                    <a  className="btn-product btn-cart">
                       <span>add to cart</span>
                     </a>
                   </div>
@@ -771,7 +771,7 @@ const ProductDetail = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a href="#">Jeans</a>
+                    <a >Jeans</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">

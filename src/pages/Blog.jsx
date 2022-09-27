@@ -30,10 +30,10 @@ const Blog = () => {
                   <div className="entry-body">
                     <div className="entry-meta">
                       <span className="entry-author">
-                        by <a href="#">John Doe</a>
+                        by <a >John Doe</a>
                       </span>
                       <span className="meta-separator">|</span>
-                      <a href="#">Nov 22, 2018</a>
+                      <a >Nov 22, 2018</a>
                       <span className="meta-separator">|</span>
                     </div>
                     {/* End .entry-meta */}
@@ -44,7 +44,7 @@ const Blog = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Lifestyle</a>,<a href="#">Shopping</a>
+                      in <a >Lifestyle</a>,<a >Shopping</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -88,10 +88,10 @@ const Blog = () => {
                   <div className="entry-body">
                     <div className="entry-meta">
                       <span className="entry-author">
-                        by <a href="#">John Doe</a>
+                        by <a >John Doe</a>
                       </span>
                       <span className="meta-separator">|</span>
-                      <a href="#">Nov 20, 2018</a>
+                      <a >Nov 20, 2018</a>
                       <span className="meta-separator">|</span>
                     </div>
                     {/* End .entry-meta */}
@@ -102,7 +102,7 @@ const Blog = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Lifestyle</a>
+                      in <a >Lifestyle</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">

@@ -54,13 +54,13 @@ const CategoryList = () => {
                       {/* End .col-sm-8 */}
                       <div className="col-sm-4">
                         <div className="banner banner-cat banner-badge">
-                          <a href="#">
+                          <a >
                             <img
                               src="assets/images/category/fullwidth-page/2.jpg"
                               alt="Banner"
                             />
                           </a>
-                          <a className="banner-link" href="#">
+                          <a className="banner-link" >
                             <h3 className="banner-title">Jeans</h3>
                             {/* End .banner-title */}
                             <h4 className="banner-subtitle">1 Product</h4>
@@ -74,13 +74,13 @@ const CategoryList = () => {
                       {/* End .col-sm-4 */}
                       <div className="col-sm-4">
                         <div className="banner banner-cat banner-badge">
-                          <a href="#">
+                          <a >
                             <img
                               src="assets/images/category/fullwidth-page/3.jpg"
                               alt="Banner"
                             />
                           </a>
-                          <a className="banner-link" href="#">
+                          <a className="banner-link" >
                             <h3 className="banner-title">Sportwear</h3>
                             {/* End .banner-title */}
                             <h4 className="banner-subtitle">0 Product</h4>
@@ -94,13 +94,13 @@ const CategoryList = () => {
                       {/* End .col-sm-4 */}
                       <div className="col-sm-8">
                         <div className="banner banner-cat banner-badge">
-                          <a href="#">
+                          <a >
                             <img
                               src="assets/images/category/fullwidth-page/4.jpg"
                               alt="Banner"
                             />
                           </a>
-                          <a className="banner-link" href="#">
+                          <a className="banner-link" >
                             <h3 className="banner-title">Bags</h3>
                             {/* End .banner-title */}
                             <h4 className="banner-subtitle">4 Products</h4>
@@ -120,13 +120,13 @@ const CategoryList = () => {
                     <div className="row">
                       <div className="col-sm-8">
                         <div className="banner banner-cat banner-badge">
-                          <a href="#">
+                          <a >
                             <img
                               src="assets/images/category/fullwidth-page/5.jpg"
                               alt="Banner"
                             />
                           </a>
-                          <a className="banner-link" href="#">
+                          <a className="banner-link" >
                             <h3 className="banner-title">Dresses</h3>
                             {/* End .banner-title */}
                             <h4 className="banner-subtitle">3 Products</h4>
@@ -137,13 +137,13 @@ const CategoryList = () => {
                         </div>
                         {/* End .banner */}
                         <div className="banner banner-cat banner-badge">
-                          <a href="#">
+                          <a >
                             <img
                               src="assets/images/category/fullwidth-page/6.jpg"
                               alt="Banner"
                             />
                           </a>
-                          <a className="banner-link" href="#">
+                          <a className="banner-link" >
                             <h3 className="banner-title">Shoes</h3>
                             {/* End .banner-title */}
                             <h4 className="banner-subtitle">2 Products</h4>
@@ -157,13 +157,13 @@ const CategoryList = () => {
                       {/* End .col-sm-8 */}
                       <div className="col-sm-4">
                         <div className="banner banner-cat banner-badge">
-                          <a href="#">
+                          <a >
                             <img
                               src="assets/images/category/fullwidth-page/7.jpg"
                               alt="Banner"
                             />
                           </a>
-                          <a className="banner-link" href="#">
+                          <a className="banner-link" >
                             <h3 className="banner-title">T-shirts</h3>
                             {/* End .banner-title */}
                             <h4 className="banner-subtitle">0 Products</h4>
@@ -174,13 +174,13 @@ const CategoryList = () => {
                         </div>
                         {/* End .banner */}
                         <div className="banner banner-cat banner-badge">
-                          <a href="#">
+                          <a >
                             <img
                               src="assets/images/category/fullwidth-page/8.jpg"
                               alt="Banner"
                             />
                           </a>
-                          <a className="banner-link" href="#">
+                          <a className="banner-link" >
                             <h3 className="banner-title">Jumpers</h3>
                             {/* End .banner-title */}
                             <h4 className="banner-subtitle">1 Product</h4>
@@ -212,7 +212,7 @@ const CategoryList = () => {
                     Filters
                     Clean All
                   </label>
-                  <a href="#" className="sidebar-filter-clear">
+                  <a  className="sidebar-filter-clear">
                   </a>
                 </div>
                 <div className="widget">

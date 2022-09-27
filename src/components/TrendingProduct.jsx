@@ -54,7 +54,7 @@ const TrendingProduct = () => {
                 {/* End .product-media */}
                 <div className="product-body ">
                   <div className="product-cat">
-                    <a href="#">Clothing</a>
+                    <a >Clothing</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -89,7 +89,7 @@ const TrendingProduct = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a href="#">Clothing</a>
+                    <a >Clothing</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -121,7 +121,7 @@ const TrendingProduct = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a href="#">Shoes</a>
+                    <a >Shoes</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -153,7 +153,7 @@ const TrendingProduct = () => {
                   </a>
                   <div className="product-action-vertical">
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-wishlist btn-expandable"
                       title="Add to wishlist"
                     >
@@ -165,7 +165,7 @@ const TrendingProduct = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a href="#">Handbags</a>
+                    <a >Handbags</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -194,7 +194,7 @@ const TrendingProduct = () => {
                   </a>
                   <div className="product-action-vertical">
                     <a
-                      href="#"
+                      
                       className="btn-product-icon btn-wishlist btn-expandable"
                       title="Add to wishlist"
                     >
@@ -203,7 +203,7 @@ const TrendingProduct = () => {
                   </div>
                   {/* End .product-action */}
                   <div className="product-action product-action-transparent">
-                    <a href="#" className="btn-product btn-cart">
+                    <a  className="btn-product btn-cart">
                       <span>add to cart</span>
                     </a>
                   </div>
@@ -212,7 +212,7 @@ const TrendingProduct = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a href="#">Clothing</a>
+                    <a >Clothing</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -223,13 +223,13 @@ const TrendingProduct = () => {
                   {/* End .product-price */}
                   <div className="product-nav product-nav-dots">
                     <a
-                      href="#"
+                      
                       className="active"
                       style={{ background: "#2d272b" }}
                     >
                       <span className="sr-only">Color name</span>
                     </a>
-                    <a href="#" style={{ background: "#8f957d" }}>
+                    <a  style={{ background: "#8f957d" }}>
                       <span className="sr-only">Color name</span>
                     </a>
                   </div>

@@ -17,11 +17,11 @@ const InstaPost = () => {
                     alt="img"
                   />
                   <div className="instagram-feed-content">
-                    <a href="#">
+                    <a >
                       <i className="icon-heart-o" />
                       387
                     </a>
-                    <a href="#">
+                    <a >
                       <i className="icon-comments" />
                       45
                     </a>
@@ -38,11 +38,11 @@ const InstaPost = () => {
                     alt="img"
                   />
                   <div className="instagram-feed-content">
-                    <a href="#">
+                    <a >
                       <i className="icon-heart-o" />
                       691
                     </a>
-                    <a href="#">
+                    <a >
                       <i className="icon-comments" />
                       87
                     </a>
@@ -59,7 +59,7 @@ const InstaPost = () => {
                     @Arrayah_store <br />
                     on instagram
                   </p>
-                  <a href="#">FOLLOW</a>
+                  <a >FOLLOW</a>
                 </div>
                 {/* End .instagram-feed-title */}
               </div>
@@ -71,11 +71,11 @@ const InstaPost = () => {
                     alt="img"
                   />
                   <div className="instagram-feed-content">
-                    <a href="#">
+                    <a >
                       <i className="icon-heart-o" />
                       321
                     </a>
-                    <a href="#">
+                    <a >
                       <i className="icon-comments" />
                       54
                     </a>
@@ -92,11 +92,11 @@ const InstaPost = () => {
                     alt="img"
                   />
                   <div className="instagram-feed-content">
-                    <a href="#">
+                    <a >
                       <i className="icon-heart-o" />
                       44
                     </a>
-                    <a href="#">
+                    <a >
                       <i className="icon-comments" />
                       55
                     </a>
@@ -113,11 +113,11 @@ const InstaPost = () => {
                     alt="img"
                   />
                   <div className="instagram-feed-content">
-                    <a href="#">
+                    <a >
                       <i className="icon-heart-o" />
                       128
                     </a>
-                    <a href="#">
+                    <a >
                       <i className="icon-comments" />
                       99
                     </a>
@@ -134,11 +134,11 @@ const InstaPost = () => {
                     alt="img"
                   />
                   <div className="instagram-feed-content">
-                    <a href="#">
+                    <a >
                       <i className="icon-heart-o" />
                       433
                     </a>
-                    <a href="#">
+                    <a >
                       <i className="icon-comments" />
                       25
                     </a>
@@ -155,11 +155,11 @@ const InstaPost = () => {
                     alt="img"
                   />
                   <div className="instagram-feed-content">
-                    <a href="#">
+                    <a >
                       <i className="icon-heart-o" />
                       588
                     </a>
-                    <a href="#">
+                    <a >
                       <i className="icon-comments" />
                       44
                     </a>
@@ -176,11 +176,11 @@ const InstaPost = () => {
                     alt="img"
                   />
                   <div className="instagram-feed-content">
-                    <a href="#">
+                    <a >
                       <i className="icon-heart-o" />
                       87
                     </a>
-                    <a href="#">
+                    <a >
                       <i className="icon-comments" />
                       23
                     </a>
@@ -197,11 +197,11 @@ const InstaPost = () => {
                     alt="img"
                   />
                   <div className="instagram-feed-content">
-                    <a href="#">
+                    <a >
                       <i className="icon-heart-o" />
                       87
                     </a>
-                    <a href="#">
+                    <a >
                       <i className="icon-comments" />
                       23
                     </a>

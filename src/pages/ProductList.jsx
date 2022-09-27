@@ -32,9 +32,9 @@ const ProductList = () => {
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 22, 2018</a>
+                      <a >Nov 22, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">2 Comments</a>
+                      <a >2 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -42,7 +42,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Lifestyle</a>,<a href="#">Shopping</a>
+                      in <a >Lifestyle</a>,<a >Shopping</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -74,9 +74,9 @@ const ProductList = () => {
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 21, 2018</a>
+                      <a >Nov 21, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">0 Comments</a>
+                      <a >0 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -86,7 +86,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Lifestyle</a>
+                      in <a >Lifestyle</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -129,9 +129,9 @@ const ProductList = () => {
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 18, 2018</a>
+                      <a >Nov 18, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">3 Comments</a>
+                      <a >3 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -139,7 +139,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Fashion</a>,<a href="#">Lifestyle</a>
+                      in <a >Fashion</a>,<a >Lifestyle</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -170,9 +170,9 @@ const ProductList = () => {
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 15, 2018</a>
+                      <a >Nov 15, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">4 Comments</a>
+                      <a >4 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -180,7 +180,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Travel</a>
+                      in <a >Travel</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -212,9 +212,9 @@ const ProductList = () => {
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 11, 2018</a>
+                      <a >Nov 11, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">2 Comments</a>
+                      <a >2 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -224,7 +224,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Travel</a>,<a href="#">Hobbies</a>
+                      in <a >Travel</a>,<a >Hobbies</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -256,9 +256,9 @@ const ProductList = () => {
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 10, 2018</a>
+                      <a >Nov 10, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">4 Comments</a>
+                      <a >4 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -266,7 +266,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Hobbies</a>
+                      in <a >Hobbies</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -311,9 +311,9 @@ const ProductList = () => {
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 11, 2018</a>
+                      <a >Nov 11, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">3 Comments</a>
+                      <a >3 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -321,7 +321,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Travel</a>
+                      in <a >Travel</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -353,9 +353,9 @@ const ProductList = () => {
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 08, 2018</a>
+                      <a >Nov 08, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">0 Comments</a>
+                      <a >0 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -363,7 +363,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Fashion</a>
+                      in <a >Fashion</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -389,7 +389,7 @@ const ProductList = () => {
                 <li className="page-item disabled">
                   <a
                     className="page-link page-link-prev"
-                    href="#"
+                    
                     aria-label="Previous"
                     tabIndex={-1}
                     aria-disabled="true"
@@ -401,19 +401,19 @@ const ProductList = () => {
                   </a>
                 </li>
                 <li className="page-item active" aria-current="page">
-                  <a className="page-link" href="#">
+                  <a className="page-link" >
                     1
                   </a>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="#">
+                  <a className="page-link" >
                     2
                   </a>
                 </li>
                 <li className="page-item">
                   <a
                     className="page-link page-link-next"
-                    href="#"
+                    
                     aria-label="Next"
                   >
                     Next{" "}

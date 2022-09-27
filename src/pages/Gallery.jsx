@@ -20,7 +20,6 @@ const Gallery = () => {
                   <a href="single.html">
                     <img
                       src="assets/images/blog/masonry/4cols/post-1.jpg"
-                      alt="image desc"
                     />
                   </a>
                 </figure>
@@ -35,7 +34,6 @@ const Gallery = () => {
                   <a href="single.html">
                     <img
                       src="assets/images/blog/masonry/4cols/post-2.jpg"
-                      alt="image desc"
                     />
                   </a>
                 </figure>
@@ -54,13 +52,13 @@ const Gallery = () => {
                     <a href="single.html">
                       <img
                         src="assets/images/blog/masonry/4cols/post-3.jpg"
-                        alt="image desc"
+
                       />
                     </a>
                     <a href="single.html">
                       <img
                         src="assets/images/blog/masonry/4cols/post-3-2.jpg"
-                        alt="image desc"
+
                       />
                     </a>
                   </div>
@@ -77,7 +75,6 @@ const Gallery = () => {
                   <a href="single.html">
                     <img
                       src="assets/images/blog/masonry/4cols/post-4.jpg"
-                      alt="image desc"
                     />
                   </a>
                 </figure>
@@ -92,7 +89,6 @@ const Gallery = () => {
                   <a href="single.html">
                     <img
                       src="assets/images/blog/masonry/4cols/post-5.jpg"
-                      alt="image desc"
                     />
                   </a>
                 </figure>
@@ -107,7 +103,6 @@ const Gallery = () => {
                   <a href="single.html">
                     <img
                       src="assets/images/blog/masonry/4cols/post-6.jpg"
-                      alt="image desc"
                     />
                   </a>
                 </figure>
@@ -122,7 +117,6 @@ const Gallery = () => {
                   <a href="single.html">
                     <img
                       src="assets/images/blog/masonry/4cols/post-7.jpg"
-                      alt="image desc"
                     />
                   </a>
                 </figure>
@@ -141,13 +135,13 @@ const Gallery = () => {
                     <a href="single.html">
                       <img
                         src="assets/images/blog/masonry/4cols/post-8.jpg"
-                        alt="image desc"
+
                       />
                     </a>
                     <a href="single.html">
                       <img
                         src="assets/images/blog/masonry/4cols/post-8-2.jpg"
-                        alt="image desc"
+
                       />
                     </a>
                   </div>
@@ -164,7 +158,6 @@ const Gallery = () => {
                   <a href="single.html">
                     <img
                       src="assets/images/blog/masonry/4cols/post-9.jpg"
-                      alt="image desc"
                     />
                   </a>
                 </figure>
@@ -179,7 +172,6 @@ const Gallery = () => {
                   <a href="single.html">
                     <img
                       src="assets/images/blog/masonry/4cols/post-10.jpg"
-                      alt="image desc"
                     />
                   </a>
                 </figure>
@@ -194,7 +186,6 @@ const Gallery = () => {
                   <a href="single.html">
                     <img
                       src="assets/images/blog/masonry/4cols/post-11.jpg"
-                      alt="image desc"
                     />
                   </a>
                 </figure>
@@ -209,7 +200,6 @@ const Gallery = () => {
                   <a href="single.html">
                     <img
                       src="assets/images/blog/masonry/4cols/post-12.jpg"
-                      alt="image desc"
                     />
                   </a>
                 </figure>
@@ -225,7 +215,7 @@ const Gallery = () => {
               <li className="page-item disabled">
                 <a
                   className="page-link page-link-prev"
-                  href="#"
+                  
                   aria-label="Previous"
                   tabIndex={-1}
                   aria-disabled="true"
@@ -237,19 +227,19 @@ const Gallery = () => {
                 </a>
               </li>
               <li className="page-item active" aria-current="page">
-                <a className="page-link" href="#">
+                <a className="page-link" >
                   1
                 </a>
               </li>
               <li className="page-item">
-                <a className="page-link" href="#">
+                <a className="page-link" >
                   2
                 </a>
               </li>
               <li className="page-item">
                 <a
                   className="page-link page-link-next"
-                  href="#"
+                  
                   aria-label="Next"
                 >
                   Next{" "}

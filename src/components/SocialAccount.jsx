@@ -17,7 +17,7 @@ const SocialAccount = () => {
                 {/* End .cta-desc */}
                 <div className="social-icons social-icons-colored justify-content-center">
                   <a
-                    href="#"
+                    
                     className="social-icon social-facebook"
                     title="Facebook"
                     target="_blank"
@@ -25,7 +25,7 @@ const SocialAccount = () => {
                     <i className="icon-facebook-f" />
                   </a>
                   <a
-                    href="#"
+                    
                     className="social-icon social-twitter"
                     title="Twitter"
                     target="_blank"
@@ -33,7 +33,7 @@ const SocialAccount = () => {
                     <i className="icon-twitter" />
                   </a>
                   <a
-                    href="#"
+                    
                     className="social-icon social-instagram"
                     title="Instagram"
                     target="_blank"
@@ -41,7 +41,7 @@ const SocialAccount = () => {
                     <i className="icon-instagram" />
                   </a>
                   <a
-                    href="#"
+                    
                     className="social-icon social-youtube"
                     title="Youtube"
                     target="_blank"
@@ -49,7 +49,7 @@ const SocialAccount = () => {
                     <i className="icon-youtube" />
                   </a>
                   <a
-                    href="#"
+                    
                     className="social-icon social-pinterest"
                     title="Pinterest"
                     target="_blank"

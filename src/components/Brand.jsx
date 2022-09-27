@@ -33,26 +33,26 @@ const Brand = () => {
               }
           }'
       >
-        <a href="#" className="brand">
-          <img src="assets/images/brands/1.png" alt="Brand Name" />
+        <a className="brand">
+          <img src="assets/images/brands/1.png" />
         </a>
-        <a href="#" className="brand">
-          <img src="assets/images/brands/2.png" alt="Brand Name" />
+        <a className="brand">
+          <img src="assets/images/brands/2.png" />
         </a>
-        <a href="#" className="brand">
-          <img src="assets/images/brands/3.png" alt="Brand Name" />
+        <a className="brand">
+          <img src="assets/images/brands/3.png" />
         </a>
-        <a href="#" className="brand">
-          <img src="assets/images/brands/4.png" alt="Brand Name" />
+        <a className="brand">
+          <img src="assets/images/brands/4.png" />
         </a>
-        <a href="#" className="brand">
-          <img src="assets/images/brands/5.png" alt="Brand Name" />
+        <a className="brand">
+          <img src="assets/images/brands/5.png" />
         </a>
-        <a href="#" className="brand">
-          <img src="assets/images/brands/6.png" alt="Brand Name" />
+        <a className="brand">
+          <img src="assets/images/brands/6.png" />
         </a>
-        <a href="#" className="brand">
-          <img src="assets/images/brands/7.png" alt="Brand Name" />
+        <a  className="brand">
+          <img src="assets/images/brands/7.png" />
         </a>
       </div>
     </>
