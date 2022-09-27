@@ -8,18 +8,18 @@ const Footer = () => {
         <div className="footer-middle">
           <div className="container">
             <div className="row">
-              <div className="col-sm-6 col-xs-6 col-md-6 col-lg-6">
-                <div className="widget widget-about">
-                  <img
-                    src="assets/images/demos/demo-5/logo-a.png"
-                    className="footer-logo"
-                    alt="Footer Logo"
-                    width={105}
-                    height={25}
-                  />
-                  <div className="instagram-feed-container">
-                    <div className="row">
-                      <div className="feed-col col-md-3 col-sm-3">
+              <div style={{ float: "left" }}>
+                <div>
+                  <div className="widget widget-about">
+                    <img
+                      src="assets/images/demos/demo-5/logo-a.png"
+                      className="footer-logo"
+                      alt="Footer Logo"
+                      width={105}
+                      height={25}
+                    />
+                    <div style={{ display: "flex" }}>
+                      <div className="col-md-2">
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/4.jpg"
@@ -35,12 +35,9 @@ const Footer = () => {
                               55
                             </a>
                           </div>
-                          {/* End .instagram-feed-content */}
                         </div>
-                        {/* End .instagram-feed */}
                       </div>
-                      {/* End .feed-col */}
-                      <div className="feed-col col-md-3 col-sm-3">
+                      <div className="col-md-2">
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/5.jpg"
@@ -56,12 +53,9 @@ const Footer = () => {
                               99
                             </a>
                           </div>
-                          {/* End .instagram-feed-content */}
                         </div>
-                        {/* End .instagram-feed */}
                       </div>
-                      {/* End .feed-col */}
-                      <div className="feed-col col-md-3 col-sm-3">
+                      <div className="col-md-2">
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/6.jpg"
@@ -77,15 +71,11 @@ const Footer = () => {
                               25
                             </a>
                           </div>
-                          {/* End .instagram-feed-content */}
                         </div>
-                        {/* End .instagram-feed */}
                       </div>
-                      {/* End .feed-col */}
                     </div>
-                    {/* End .row */}
-                    <div className="row">
-                      <div className="feed-col col-md-3 col-sm-3">
+                    <div style={{ display: "flex" }}>
+                      <div className="col-md-2">
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/7.jpg"
@@ -105,8 +95,7 @@ const Footer = () => {
                         </div>
                         {/* End .instagram-feed */}
                       </div>
-                      {/* End .feed-col */}
-                      <div className="feed-col col-md-3 col-sm-3">
+                      <div className="col-md-2">
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/8.jpg"
@@ -126,8 +115,7 @@ const Footer = () => {
                         </div>
                         {/* End .instagram-feed */}
                       </div>
-                      {/* End .feed-col */}
-                      <div className="feed-col col-md-3 col-sm-3">
+                      <div className="col-md-2">
                         <div className="instagram-feed">
                           <img
                             src="assets/images/demos/demo-5/instagram/9.jpg"
@@ -147,46 +135,44 @@ const Footer = () => {
                         </div>
                         {/* End .instagram-feed */}
                       </div>
-                      {/* End .feed-col */}
                     </div>
+                    {/* End .instagra-feed-container */}
                   </div>
-                  {/* End .instagra-feed-container */}
+                  {/* End .widget about-widget */}
                 </div>
-                {/* End .widget about-widget */}
               </div>
-              {/* End .col-sm-12 col-lg-3 */}
-              <div className="col-sm-4 col-md-4 col-lg-4">
-                <div className="widget">
-                  <Link to="productlist">
-                    <h4 className="widget-title">Product</h4>
-                  </Link>
-                  <a href="productlist">
-                    <h4 className="widget-title">About Us</h4>
-                  </a>
-                  <a href="productlist">
-                    <h4 className="widget-title">Contact Us</h4>
-                  </a>
-                  <div className="widget-about-info">
-                    <div className="row">
-                      <div className="col-sm-12 col-md-12">
+              <div>
+                <div style={{ float: "right", flexDirection: "column" }}>
+                  <div className="widget">
+                    <Link to="productlist">
+                      <h4 className="widget-title">Product</h4>
+                    </Link>
+                    <a href="productlist">
+                      <h4 className="widget-title">About Us</h4>
+                    </a>
+                    <a href="productlist">
+                      <h4 className="widget-title">Contact Us</h4>
+                    </a>
+                    <div className="widget-about-info">
+                      <div className="row">
+                        {/* <div className="col-sm-12 col-md-12"> */}
                         <span className="widget-about-title">
                           Got Question? Call us 24/7
                         </span>
                         <a href="tel:123456789">+0123 456 789</a>
+                        {/* </div> */}
+                        {/* End .col-sm-6 */}
                       </div>
-                      {/* End .col-sm-6 */}
+                      {/* End .row */}
                     </div>
-                    {/* End .row */}
+                    {/* End .widget */}
                   </div>
                   {/* End .widget */}
                 </div>
-                {/* End .widget */}
               </div>
-              {/* End .col-sm-4 col-lg-3 */}
-              <div className="col-sm-2 col-md-2 col-lg-2">
+              <div>
                 <div className="widget">
                   <h4 className="widget-title">Media</h4>
-                  {/* End .widget-title */}
                   <ul className="widget-list">
                     <li>
                       <a href="blog">Blog</a>
@@ -195,10 +181,8 @@ const Footer = () => {
                       <a href="gallery">Gallery</a>
                     </li>
                   </ul>
-                  {/* End .widget-list */}
                 </div>
               </div>
-              {/* End .col-sm-4 col-lg-3 */}
             </div>
             {/* End .row */}
           </div>
