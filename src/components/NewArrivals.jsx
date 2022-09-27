@@ -25,7 +25,7 @@ const NewArrivals = () => {
                       <Link to="/productdetail">
                         <img
                           src="assets/images/demos/demo-5/products/1.jpg"
-                          alt="Product image"
+                          alt=""
                           className="product-image"
                         />
                       </Link>
@@ -75,7 +75,7 @@ const NewArrivals = () => {
                       <Link to="/productdetail">
                         <img
                           src="assets/images/demos/demo-5/products/2.jpg"
-                          alt="Product image"
+                          alt=""
                           className="product-image"
                         />
                       </Link>
@@ -125,7 +125,7 @@ const NewArrivals = () => {
                       <Link to="/productdetail">
                         <img
                           src="assets/images/demos/demo-5/products/3.jpg"
-                          alt="Product image"
+                          alt=""
                           className="product-image"
                         />
                       </Link>
@@ -175,7 +175,7 @@ const NewArrivals = () => {
                       <Link to="/productdetail">
                         <img
                           src="assets/images/demos/demo-5/products/4.jpg"
-                          alt="Product image"
+                          alt=""
                           className="product-image"
                         />
                       </Link>
@@ -225,7 +225,7 @@ const NewArrivals = () => {
                       <Link to="/productdetail">
                         <img
                           src="assets/images/demos/demo-5/products/5.jpg"
-                          alt="Product image"
+                          alt=""
                           className="product-image"
                         />
                       </Link>
@@ -275,7 +275,7 @@ const NewArrivals = () => {
                       <Link to="/productdetail">
                         <img
                           src="assets/images/demos/demo-5/products/6.jpg"
-                          alt="Product image"
+                          alt=""
                           className="product-image"
                         />
                       </Link>
@@ -325,7 +325,7 @@ const NewArrivals = () => {
                       <Link to="/productdetail">
                         <img
                           src="assets/images/demos/demo-5/products/7.jpg"
-                          alt="Product image"
+                          alt=""
                           className="product-image"
                         />
                       </Link>
@@ -375,7 +375,7 @@ const NewArrivals = () => {
                       <Link to="/productdetail">
                         <img
                           src="assets/images/demos/demo-5/products/8.jpg"
-                          alt="Product image"
+                          alt=""
                           className="product-image"
                         />
                       </Link>

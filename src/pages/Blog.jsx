@@ -17,10 +17,7 @@ const Blog = () => {
                 <div className="col-md-4">
                   <figure className="entry-media">
                     <a href="single.html">
-                      <img
-                        src="assets/images/blog/listing/post-1.jpg"
-                        alt="image desc"
-                      />
+                      <img src="assets/images/blog/listing/post-1.jpg" alt="" />
                     </a>
                   </figure>
                   {/* End .entry-media */}
@@ -30,10 +27,10 @@ const Blog = () => {
                   <div className="entry-body">
                     <div className="entry-meta">
                       <span className="entry-author">
-                        by <a href="#">John Doe</a>
+                        by <a href="/">John Doe</a>
                       </span>
                       <span className="meta-separator">|</span>
-                      <a href="#">Nov 22, 2018</a>
+                      <a href="/">Nov 22, 2018</a>
                       <span className="meta-separator">|</span>
                     </div>
                     {/* End .entry-meta */}
@@ -44,7 +41,7 @@ const Blog = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Lifestyle</a>,<a href="#">Shopping</a>
+                      in <a href="/">Lifestyle</a>,<a href="/">Shopping</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -75,10 +72,7 @@ const Blog = () => {
                 <div className="col-md-4">
                   <figure className="entry-media entry-video">
                     <a href="single.html">
-                      <img
-                        src="assets/images/blog/listing/post-2.jpg"
-                        alt="image desc"
-                      />
+                      <img src="assets/images/blog/listing/post-2.jpg" alt="" />
                     </a>
                   </figure>
                   {/* End .entry-media */}
@@ -88,10 +82,10 @@ const Blog = () => {
                   <div className="entry-body">
                     <div className="entry-meta">
                       <span className="entry-author">
-                        by <a href="#">John Doe</a>
+                        by <a href="/">John Doe</a>
                       </span>
                       <span className="meta-separator">|</span>
-                      <a href="#">Nov 20, 2018</a>
+                      <a href="/">Nov 20, 2018</a>
                       <span className="meta-separator">|</span>
                     </div>
                     {/* End .entry-meta */}
@@ -102,7 +96,7 @@ const Blog = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Lifestyle</a>
+                      in <a href="/">Lifestyle</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">

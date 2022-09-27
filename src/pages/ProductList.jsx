@@ -25,16 +25,16 @@ const ProductList = () => {
                     <Link to="/productdetail">
                       <img
                         src="assets/images/blog/grid/4cols/post-1.jpg"
-                        alt="image desc"
+                        alt=""
                       />
                     </Link>
                   </figure>
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 22, 2018</a>
+                      <a href="/">Nov 22, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">2 Comments</a>
+                      <a href="/">2 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -42,7 +42,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Lifestyle</a>,<a href="#">Shopping</a>
+                      in <a href="/">Lifestyle</a>,<a href="/">Shopping</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -67,16 +67,16 @@ const ProductList = () => {
                     <a href="single.html">
                       <img
                         src="assets/images/blog/grid/4cols/post-2.jpg"
-                        alt="image desc"
+                        alt=""
                       />
                     </a>
                   </figure>
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 21, 2018</a>
+                      <a href="/">Nov 21, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">0 Comments</a>
+                      <a href="/">0 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -86,7 +86,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Lifestyle</a>
+                      in <a href="/">Lifestyle</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -114,13 +114,13 @@ const ProductList = () => {
                       <a href="single.html">
                         <img
                           src="assets/images/blog/grid/4cols/post-3.jpg"
-                          alt="image desc"
+                          alt=""
                         />
                       </a>
                       <a href="single.html">
                         <img
                           src="assets/images/blog/grid/4cols/post-4.jpg"
-                          alt="image desc"
+                          alt=""
                         />
                       </a>
                     </div>
@@ -129,9 +129,9 @@ const ProductList = () => {
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 18, 2018</a>
+                      <a href="/">Nov 18, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">3 Comments</a>
+                      <a href="/">3 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -139,7 +139,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Fashion</a>,<a href="#">Lifestyle</a>
+                      in <a href="/">Fashion</a>,<a href="/">Lifestyle</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -163,16 +163,16 @@ const ProductList = () => {
                     <a href="single.html">
                       <img
                         src="assets/images/blog/grid/4cols/post-4.jpg"
-                        alt="image desc"
+                        alt=""
                       />
                     </a>
                   </figure>
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 15, 2018</a>
+                      <a href="/">Nov 15, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">4 Comments</a>
+                      <a href="/">4 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -180,7 +180,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Travel</a>
+                      in <a href="/">Travel</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -205,16 +205,16 @@ const ProductList = () => {
                     <a href="single.html">
                       <img
                         src="assets/images/blog/grid/4cols/post-5.jpg"
-                        alt="image desc"
+                        alt=""
                       />
                     </a>
                   </figure>
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 11, 2018</a>
+                      <a href="/">Nov 11, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">2 Comments</a>
+                      <a href="/">2 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -224,7 +224,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Travel</a>,<a href="#">Hobbies</a>
+                      in <a href="/">Travel</a>,<a href="/">Hobbies</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -249,16 +249,16 @@ const ProductList = () => {
                     <a href="single.html">
                       <img
                         src="assets/images/blog/grid/4cols/post-6.jpg"
-                        alt="image desc"
+                        alt=""
                       />
                     </a>
                   </figure>
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 10, 2018</a>
+                      <a href="/">Nov 10, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">4 Comments</a>
+                      <a href="/">4 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -266,7 +266,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Hobbies</a>
+                      in <a href="/">Hobbies</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -296,13 +296,13 @@ const ProductList = () => {
                       <a href="single.html">
                         <img
                           src="assets/images/blog/grid/4cols/post-7.jpg"
-                          alt="image desc"
+                          alt=""
                         />
                       </a>
                       <a href="single.html">
                         <img
                           src="assets/images/blog/grid/4cols/post-6.jpg"
-                          alt="image desc"
+                          alt=""
                         />
                       </a>
                     </div>
@@ -311,9 +311,9 @@ const ProductList = () => {
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 11, 2018</a>
+                      <a href="/">Nov 11, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">3 Comments</a>
+                      <a href="/">3 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -321,7 +321,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Travel</a>
+                      in <a href="/">Travel</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -346,16 +346,16 @@ const ProductList = () => {
                     <a href="single.html">
                       <img
                         src="assets/images/blog/grid/4cols/post-8.jpg"
-                        alt="image desc"
+                        alt=""
                       />
                     </a>
                   </figure>
                   {/* End .entry-media */}
                   <div className="entry-body">
                     <div className="entry-meta">
-                      <a href="#">Nov 08, 2018</a>
+                      <a href="/">Nov 08, 2018</a>
                       <span className="meta-separator">|</span>
-                      <a href="#">0 Comments</a>
+                      <a href="/">0 Comments</a>
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
@@ -363,7 +363,7 @@ const ProductList = () => {
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
-                      in <a href="#">Fashion</a>
+                      in <a href="/">Fashion</a>
                     </div>
                     {/* End .entry-cats */}
                     <div className="entry-content">
@@ -389,7 +389,7 @@ const ProductList = () => {
                 <li className="page-item disabled">
                   <a
                     className="page-link page-link-prev"
-                    href="#"
+                    href="/"
                     aria-label="Previous"
                     tabIndex={-1}
                     aria-disabled="true"
@@ -401,19 +401,19 @@ const ProductList = () => {
                   </a>
                 </li>
                 <li className="page-item active" aria-current="page">
-                  <a className="page-link" href="#">
+                  <a className="page-link" href="/">
                     1
                   </a>
                 </li>
                 <li className="page-item">
-                  <a className="page-link" href="#">
+                  <a className="page-link" href="/">
                     2
                   </a>
                 </li>
                 <li className="page-item">
                   <a
                     className="page-link page-link-next"
-                    href="#"
+                    href="/"
                     aria-label="Next"
                   >
                     Next{" "}
