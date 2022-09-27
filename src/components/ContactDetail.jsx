@@ -34,7 +34,7 @@ const ContactDetail = () => {
                       </li>
                       <li>
                         <i className="icon-envelope" />
-                        <a href="mailto:#">info@Molla.com</a>
+                        <a href="mailto:#">info@Arrayah.com</a>
                       </li>
                     </ul>
                   </div>

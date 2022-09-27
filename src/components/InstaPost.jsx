@@ -56,7 +56,7 @@ const InstaPost = () => {
                 <div className="instagram-feed-title">
                   <i className="icon-instagram" />
                   <p>
-                    @Molla_store <br />
+                    @Arrayah_store <br />
                     on instagram
                   </p>
                   <a href="#">FOLLOW</a>
