@@ -47,14 +47,14 @@ const TrendingProduct = () => {
                 <figure className="product-media">
                   <img
                     src="assets/images/demos/demo-5/products/product-1-1.jpg"
-                    alt="Product image"
+                    alt=""
                     className="product-image"
                   />
                 </figure>
                 {/* End .product-media */}
                 <div className="product-body ">
                   <div className="product-cat">
-                    <a >Clothing</a>
+                    <a href="productlist">Clothing</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -76,12 +76,12 @@ const TrendingProduct = () => {
                   <a href="product.html">
                     <img
                       src="assets/images/demos/demo-5/products/product-2-1.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image"
                     />
                     <img
                       src="assets/images/demos/demo-5/products/product-2-2.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image-hover"
                     />
                   </a>
@@ -89,7 +89,7 @@ const TrendingProduct = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a >Clothing</a>
+                    <a href="/productlist">Clothing</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -107,12 +107,12 @@ const TrendingProduct = () => {
                   <a href="product.html">
                     <img
                       src="assets/images/demos/demo-5/products/product-3-1.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image"
                     />
                     <img
                       src="assets/images/demos/demo-5/products/product-3-2.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image-hover"
                     />
                   </a>
@@ -121,7 +121,7 @@ const TrendingProduct = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a >Shoes</a>
+                    <a href="/productlist">Shoes</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -142,18 +142,18 @@ const TrendingProduct = () => {
                   <a href="product.html">
                     <img
                       src="assets/images/demos/demo-5/products/product-4-1.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image"
                     />
                     <img
                       src="assets/images/demos/demo-5/products/product-4-2.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image-hover"
                     />
                   </a>
                   <div className="product-action-vertical">
                     <a
-                      
+                      href="productlist"
                       className="btn-product-icon btn-wishlist btn-expandable"
                       title="Add to wishlist"
                     >
@@ -165,7 +165,7 @@ const TrendingProduct = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a >Handbags</a>
+                    <a href="productlist">Handbags</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -183,18 +183,18 @@ const TrendingProduct = () => {
                   <a href="product.html">
                     <img
                       src="assets/images/demos/demo-5/products/product-1-1.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image"
                     />
                     <img
                       src="assets/images/demos/demo-5/products/product-1-2.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image-hover"
                     />
                   </a>
                   <div className="product-action-vertical">
                     <a
-                      
+                      href="productlist"
                       className="btn-product-icon btn-wishlist btn-expandable"
                       title="Add to wishlist"
                     >
@@ -203,7 +203,7 @@ const TrendingProduct = () => {
                   </div>
                   {/* End .product-action */}
                   <div className="product-action product-action-transparent">
-                    <a  className="btn-product btn-cart">
+                    <a href="productlist" className="btn-product btn-cart">
                       <span>add to cart</span>
                     </a>
                   </div>
@@ -212,7 +212,7 @@ const TrendingProduct = () => {
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a >Clothing</a>
+                    <a href="productlist">Clothing</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -223,13 +223,13 @@ const TrendingProduct = () => {
                   {/* End .product-price */}
                   <div className="product-nav product-nav-dots">
                     <a
-                      
+                      href="productlist"
                       className="active"
                       style={{ background: "#2d272b" }}
                     >
                       <span className="sr-only">Color name</span>
                     </a>
-                    <a  style={{ background: "#8f957d" }}>
+                    <a href="productlist" style={{ background: "#8f957d" }}>
                       <span className="sr-only">Color name</span>
                     </a>
                   </div>

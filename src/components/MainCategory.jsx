@@ -11,7 +11,7 @@ const MainCategory = () => {
                 <a href="/categorylist">
                   <img
                     src="assets/images/demos/demo-5/banners/banner-1.jpg"
-                    alt="Banner"
+                    alt=""
                   />
                 </a>
                 <div className="banner-content">
@@ -49,7 +49,7 @@ const MainCategory = () => {
                 <a href="/categorylist">
                   <img
                     src="assets/images/demos/demo-5/banners/banner-2.jpg"
-                    alt="Banner"
+                    alt=""
                   />
                 </a>
                 <div className="banner-content">
@@ -82,7 +82,7 @@ const MainCategory = () => {
                 <a href="/categorylist">
                   <img
                     src="assets/images/demos/demo-5/banners/banner-3.jpg"
-                    alt="Banner"
+                    alt=""
                   />
                 </a>
                 <div className="banner-content">

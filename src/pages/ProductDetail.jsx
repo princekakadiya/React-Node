@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProductDetail = () => {
   return (
@@ -24,7 +25,7 @@ const ProductDetail = () => {
                         id="product-zoom"
                         src="assets/images/products/single/1.jpg"
                         data-zoom-image="assets/images/products/single/1-big.jpg"
-                        alt="product image"
+                        alt=""
                       />
                     </figure>
                     {/* End .product-main-image */}
@@ -45,11 +46,7 @@ const ProductDetail = () => {
                         {/* End .ratings-val */}
                       </div>
                       {/* End .ratings */}
-                      <a
-                        className="ratings-text"
-                        href="#product-review-link"
-                        id="review-link"
-                      >
+                      <a className="ratings-text" href="/" id="review-link">
                         ( 2 Reviews )
                       </a>
                     </div>
@@ -68,13 +65,13 @@ const ProductDetail = () => {
                     <div className="product-details-footer">
                       <div className="product-cat">
                         <span>Category:</span>
-                        <a >Women</a>
+                        <a href="productdetail">Women</a>
                       </div>
                       {/* End .product-cat */}
                       <div className="social-icons social-icons-sm">
                         <span className="social-label">Share:</span>
                         <a
-                          
+                          href="https://www.facebook.com/"
                           className="social-icon"
                           title="Facebook"
                           target="_blank"
@@ -82,7 +79,7 @@ const ProductDetail = () => {
                           <i className="icon-facebook-f" />
                         </a>
                         <a
-                          
+                          href="https://www.twitter.com/"
                           className="social-icon"
                           title="Twitter"
                           target="_blank"
@@ -90,7 +87,7 @@ const ProductDetail = () => {
                           <i className="icon-twitter" />
                         </a>
                         <a
-                          
+                          href="https://www.instagram.com/"
                           className="social-icon"
                           title="Instagram"
                           target="_blank"
@@ -98,7 +95,7 @@ const ProductDetail = () => {
                           <i className="icon-instagram" />
                         </a>
                         <a
-                          
+                          href="https://www.pinterest.com/"
                           className="social-icon"
                           title="Pinterest"
                           target="_blank"
@@ -126,7 +123,7 @@ const ProductDetail = () => {
                     className="nav-link active"
                     id="product-desc-link"
                     data-toggle="tab"
-                    href="#product-desc-tab"
+                    href="/"
                     role="tab"
                     aria-controls="product-desc-tab"
                     aria-selected="true"
@@ -139,7 +136,7 @@ const ProductDetail = () => {
                     className="nav-link"
                     id="product-info-link"
                     data-toggle="tab"
-                    href="#product-info-tab"
+                    href="/"
                     role="tab"
                     aria-controls="product-info-tab"
                     aria-selected="false"
@@ -152,7 +149,7 @@ const ProductDetail = () => {
                     className="nav-link"
                     id="product-shipping-link"
                     data-toggle="tab"
-                    href="#product-shipping-tab"
+                    href="/"
                     role="tab"
                     aria-controls="product-shipping-tab"
                     aria-selected="false"
@@ -165,7 +162,7 @@ const ProductDetail = () => {
                     className="nav-link"
                     id="product-review-link"
                     data-toggle="tab"
-                    href="#product-review-tab"
+                    href="/"
                     role="tab"
                     aria-controls="product-review-tab"
                     aria-selected="false"
@@ -264,12 +261,12 @@ const ProductDetail = () => {
                     <p>
                       We deliver to over 100 countries around the world. For
                       full details of the delivery options we offer, please view
-                      our <a >Delivery information</a>
+                      our <a href="/">Delivery information</a>
                       <br />
                       We hope you’ll love every purchase, but if you ever need
                       to return an item you can do so within a month of receipt.
                       For full details of how to make a return, please view our{" "}
-                      <a >Returns information</a>
+                      <a href="/">Returns information</a>
                     </p>
                   </div>
                   {/* End .product-desc-content */}
@@ -287,7 +284,7 @@ const ProductDetail = () => {
                       <div className="row no-gutters">
                         <div className="col-auto">
                           <h4>
-                            <a >Samanta J.</a>
+                            <a href="/">Samanta J.</a>
                           </h4>
                           <div className="ratings-container">
                             <div className="ratings">
@@ -317,11 +314,11 @@ const ProductDetail = () => {
                           </div>
                           {/* End .review-content */}
                           <div className="review-action">
-                            <a >
+                            <a href="/">
                               <i className="icon-thumbs-up" />
                               Helpful (2)
                             </a>
-                            <a >
+                            <a href="/">
                               <i className="icon-thumbs-down" />
                               Unhelpful (0)
                             </a>
@@ -337,7 +334,7 @@ const ProductDetail = () => {
                       <div className="row no-gutters">
                         <div className="col-auto">
                           <h4>
-                            <a >John Doe</a>
+                            <a href="/">John Doe</a>
                           </h4>
                           <div className="ratings-container">
                             <div className="ratings">
@@ -366,11 +363,11 @@ const ProductDetail = () => {
                           </div>
                           {/* End .review-content */}
                           <div className="review-action">
-                            <a >
+                            <a href="/">
                               <i className="icon-thumbs-up" />
                               Helpful (0)
                             </a>
-                            <a >
+                            <a href="/">
                               <i className="icon-thumbs-down" />
                               Unhelpful (0)
                             </a>
@@ -427,44 +424,28 @@ const ProductDetail = () => {
                   <a href="product.html">
                     <img
                       src="assets/images/products/product-4.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image"
                     />
                   </a>
-                  <div className="product-action-vertical">
-                    <a
-                      
-                      className="btn-product-icon btn-wishlist btn-expandable"
+                  <div className="product-action product-action-transparent">
+                    <Link
+                      to="/inquiry"
+                      className="btn-product"
+                      style={{
+                        textDecoration: "none",
+                        backgroundColor: "#408a55",
+                      }}
                     >
-                      <span>add to wishlist</span>
-                    </a>
-                    <a
-                      href="popup/quickView.html"
-                      className="btn-product-icon btn-quickview"
-                      title="Quick view"
-                    >
-                      <span>Quick view</span>
-                    </a>
-                    <a
-                      
-                      className="btn-product-icon btn-compare"
-                      title="Compare"
-                    >
-                      <span>Compare</span>
-                    </a>
-                  </div>
-                  {/* End .product-action-vertical */}
-                  <div className="product-action">
-                    <a  className="btn-product btn-cart">
-                      <span>add to cart</span>
-                    </a>
+                      <span>Send inquiry</span>
+                    </Link>
                   </div>
                   {/* End .product-action */}
                 </figure>
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a >Women</a>
+                    <a href="/">Women</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -473,39 +454,6 @@ const ProductDetail = () => {
                       pencil skirt
                     </a>
                   </h3>
-                  {/* End .product-title */}
-                  <div className="product-price">$60.00</div>
-                  {/* End .product-price */}
-                  <div className="ratings-container">
-                    <div className="ratings">
-                      <div className="ratings-val" style={{ width: "20%" }} />
-                      {/* End .ratings-val */}
-                    </div>
-                    {/* End .ratings */}
-                    <span className="ratings-text">( 2 Reviews )</span>
-                  </div>
-                  {/* End .rating-container */}
-                  <div className="product-nav product-nav-thumbs">
-                    <a  className="active">
-                      <img
-                        src="assets/images/products/product-4-thumb.jpg"
-                        alt="product desc"
-                      />
-                    </a>
-                    <a >
-                      <img
-                        src="assets/images/products/product-4-2-thumb.jpg"
-                        alt="product desc"
-                      />
-                    </a>
-                    <a >
-                      <img
-                        src="assets/images/products/product-4-3-thumb.jpg"
-                        alt="product desc"
-                      />
-                    </a>
-                  </div>
-                  {/* End .product-nav */}
                 </div>
                 {/* End .product-body */}
               </div>
@@ -516,63 +464,33 @@ const ProductDetail = () => {
                   <a href="product.html">
                     <img
                       src="assets/images/products/product-6.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image"
                     />
                   </a>
-                  <div className="product-action-vertical">
-                    <a
-                      
-                      className="btn-product-icon btn-wishlist btn-expandable"
+                  <div className="product-action product-action-transparent">
+                    <Link
+                      to="/inquiry"
+                      className="btn-product"
+                      style={{
+                        textDecoration: "none",
+                        backgroundColor: "#408a55",
+                      }}
                     >
-                      <span>add to wishlist</span>
-                    </a>
-                    <a
-                      href="popup/quickView.html"
-                      className="btn-product-icon btn-quickview"
-                      title="Quick view"
-                    >
-                      <span>Quick view</span>
-                    </a>
-                    <a
-                      
-                      className="btn-product-icon btn-compare"
-                      title="Compare"
-                    >
-                      <span>Compare</span>
-                    </a>
+                      <span>Send inquiry</span>
+                    </Link>
                   </div>
-                  {/* End .product-action-vertical */}
-                  <div className="product-action">
-                    <a  className="btn-product btn-cart">
-                      <span>add to cart</span>
-                    </a>
-                  </div>
-                  {/* End .product-action */}
                 </figure>
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a >Jackets</a>
+                    <a href="/">Jackets</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
                     <a href="product.html">Khaki utility boiler jumpsuit</a>
                   </h3>
                   {/* End .product-title */}
-                  <div className="product-price">
-                    <span className="out-price">$120.00</span>
-                  </div>
-                  {/* End .product-price */}
-                  <div className="ratings-container">
-                    <div className="ratings">
-                      <div className="ratings-val" style={{ width: "80%" }} />
-                      {/* End .ratings-val */}
-                    </div>
-                    {/* End .ratings */}
-                    <span className="ratings-text">( 6 Reviews )</span>
-                  </div>
-                  {/* End .rating-container */}
                 </div>
                 {/* End .product-body */}
               </div>
@@ -583,44 +501,27 @@ const ProductDetail = () => {
                   <a href="product.html">
                     <img
                       src="assets/images/products/product-11.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image"
                     />
                   </a>
-                  <div className="product-action-vertical">
-                    <a
-                      
-                      className="btn-product-icon btn-wishlist btn-expandable"
+                  <div className="product-action product-action-transparent">
+                    <Link
+                      to="/inquiry"
+                      className="btn-product"
+                      style={{
+                        textDecoration: "none",
+                        backgroundColor: "#408a55",
+                      }}
                     >
-                      <span>add to wishlist</span>
-                    </a>
-                    <a
-                      href="popup/quickView.html"
-                      className="btn-product-icon btn-quickview"
-                      title="Quick view"
-                    >
-                      <span>Quick view</span>
-                    </a>
-                    <a
-                      
-                      className="btn-product-icon btn-compare"
-                      title="Compare"
-                    >
-                      <span>Compare</span>
-                    </a>
+                      <span>Send inquiry</span>
+                    </Link>
                   </div>
-                  {/* End .product-action-vertical */}
-                  <div className="product-action">
-                    <a  className="btn-product btn-cart">
-                      <span>add to cart</span>
-                    </a>
-                  </div>
-                  {/* End .product-action */}
                 </figure>
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a >Shoes</a>
+                    <a href="/">Shoes</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
@@ -628,39 +529,6 @@ const ProductDetail = () => {
                       Light brown studded Wide fit wedges
                     </a>
                   </h3>
-                  {/* End .product-title */}
-                  <div className="product-price">$110.00</div>
-                  {/* End .product-price */}
-                  <div className="ratings-container">
-                    <div className="ratings">
-                      <div className="ratings-val" style={{ width: "80%" }} />
-                      {/* End .ratings-val */}
-                    </div>
-                    {/* End .ratings */}
-                    <span className="ratings-text">( 1 Reviews )</span>
-                  </div>
-                  {/* End .rating-container */}
-                  <div className="product-nav product-nav-thumbs">
-                    <a  className="active">
-                      <img
-                        src="assets/images/products/product-11-thumb.jpg"
-                        alt="product desc"
-                      />
-                    </a>
-                    <a >
-                      <img
-                        src="assets/images/products/product-11-2-thumb.jpg"
-                        alt="product desc"
-                      />
-                    </a>
-                    <a >
-                      <img
-                        src="assets/images/products/product-11-3-thumb.jpg"
-                        alt="product desc"
-                      />
-                    </a>
-                  </div>
-                  {/* End .product-nav */}
                 </div>
                 {/* End .product-body */}
               </div>
@@ -670,61 +538,33 @@ const ProductDetail = () => {
                   <a href="product.html">
                     <img
                       src="assets/images/products/product-10.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image"
                     />
                   </a>
-                  <div className="product-action-vertical">
-                    <a
-                      
-                      className="btn-product-icon btn-wishlist btn-expandable"
+                  <div className="product-action product-action-transparent">
+                    <Link
+                      to="/inquiry"
+                      className="btn-product"
+                      style={{
+                        textDecoration: "none",
+                        backgroundColor: "#408a55",
+                      }}
                     >
-                      <span>add to wishlist</span>
-                    </a>
-                    <a
-                      href="popup/quickView.html"
-                      className="btn-product-icon btn-quickview"
-                      title="Quick view"
-                    >
-                      <span>Quick view</span>
-                    </a>
-                    <a
-                      
-                      className="btn-product-icon btn-compare"
-                      title="Compare"
-                    >
-                      <span>Compare</span>
-                    </a>
+                      <span>Send inquiry</span>
+                    </Link>
                   </div>
-                  {/* End .product-action-vertical */}
-                  <div className="product-action">
-                    <a  className="btn-product btn-cart">
-                      <span>add to cart</span>
-                    </a>
-                  </div>
-                  {/* End .product-action */}
                 </figure>
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a >Jumpers</a>
+                    <a href="/">Jumpers</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
                     <a href="product.html">Yellow button front tea top</a>
                   </h3>
                   {/* End .product-title */}
-                  <div className="product-price">$56.00</div>
-                  {/* End .product-price */}
-                  <div className="ratings-container">
-                    <div className="ratings">
-                      <div className="ratings-val" style={{ width: "0%" }} />
-                      {/* End .ratings-val */}
-                    </div>
-                    {/* End .ratings */}
-                    <span className="ratings-text">( 0 Reviews )</span>
-                  </div>
-                  {/* End .rating-container */}
                 </div>
                 {/* End .product-body */}
               </div>
@@ -734,61 +574,32 @@ const ProductDetail = () => {
                   <a href="product.html">
                     <img
                       src="assets/images/products/product-7.jpg"
-                      alt="Product image"
+                      alt=""
                       className="product-image"
                     />
                   </a>
-                  <div className="product-action-vertical">
-                    <a
-                      
-                      className="btn-product-icon btn-wishlist btn-expandable"
+                  <div className="product-action product-action-transparent">
+                    <Link
+                      to="/inquiry"
+                      className="btn-product"
+                      style={{
+                        textDecoration: "none",
+                        backgroundColor: "#408a55",
+                      }}
                     >
-                      <span>add to wishlist</span>
-                    </a>
-                    <a
-                      href="popup/quickView.html"
-                      className="btn-product-icon btn-quickview"
-                      title="Quick view"
-                    >
-                      <span>Quick view</span>
-                    </a>
-                    <a
-                      
-                      className="btn-product-icon btn-compare"
-                      title="Compare"
-                    >
-                      <span>Compare</span>
-                    </a>
+                      <span>Send inquiry</span>
+                    </Link>
                   </div>
-                  {/* End .product-action-vertical */}
-                  <div className="product-action">
-                    <a  className="btn-product btn-cart">
-                      <span>add to cart</span>
-                    </a>
-                  </div>
-                  {/* End .product-action */}
                 </figure>
                 {/* End .product-media */}
                 <div className="product-body">
                   <div className="product-cat">
-                    <a >Jeans</a>
+                    <a href="/">Jeans</a>
                   </div>
                   {/* End .product-cat */}
                   <h3 className="product-title">
                     <a href="product.html">Blue utility pinafore denim dress</a>
                   </h3>
-                  {/* End .product-title */}
-                  <div className="product-price">$76.00</div>
-                  {/* End .product-price */}
-                  <div className="ratings-container">
-                    <div className="ratings">
-                      <div className="ratings-val" style={{ width: "20%" }} />
-                      {/* End .ratings-val */}
-                    </div>
-                    {/* End .ratings */}
-                    <span className="ratings-text">( 2 Reviews )</span>
-                  </div>
-                  {/* End .rating-container */}
                 </div>
                 {/* End .product-body */}
               </div>

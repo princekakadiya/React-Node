@@ -11,7 +11,7 @@ const SpecialProduct = () => {
                 <div className="banner-set-image">
                   <img
                     src="assets/images/demos/demo-5/banners/banner-4.jpg"
-                    alt="banner"
+                    alt=""
                   />
                   {/* End .banner-content */}
                 </div>
@@ -37,7 +37,7 @@ const SpecialProduct = () => {
                                 <a href="product.html">
                                   <img
                                     src="assets/images/demos/demo-5/products/product-13.jpg"
-                                    alt="Product image"
+                                    alt=""
                                     className="product-image"
                                   />
                                 </a>
@@ -60,7 +60,7 @@ const SpecialProduct = () => {
                                 <a href="product.html">
                                   <img
                                     src="assets/images/demos/demo-5/products/product-14.jpg"
-                                    alt="Product image"
+                                    alt=""
                                     className="product-image"
                                   />
                                 </a>
