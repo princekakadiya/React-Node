@@ -1,13 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SmallIntro = () => {
   return (
     <>
-      <div className="pt-4 pb-5 mb-6 mb-lg-4 mt-5"
-        style={{ backgroundImage: "url(assets/images/background.jpg)",
-                 backgroundRepeat: "no-repeat",
-                 backgroundSize: "auto"
-       }}
+      <div
+        className="pt-4 pb-5 mb-6 mb-lg-4 mt-5"
+        style={{
+          backgroundImage: "url(assets/images/background.jpg)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "auto",
+        }}
       >
         <div className="container">
           <div className="row">
@@ -28,10 +31,12 @@ const SmallIntro = () => {
                 libero eu augue.{" "}
               </p>
               <div className="ml-4 mt-5 col-5">
-                <button type="button" class="btn btn-lg btn-outline-success">
-                  About US
-                  <i className="icon-long-arrow-right" />
-                </button>
+                <Link to="aboutus">
+                  <button type="button" class="btn btn-lg btn-outline-success">
+                    About US
+                    <i className="icon-long-arrow-right" />
+                  </button>
+                </Link>
               </div>
             </div>
             {/* End .col-lg-5 */}
