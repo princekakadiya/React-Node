@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MobileMenu from "../components/MobileMenu";
 
 const SendInquiry = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div

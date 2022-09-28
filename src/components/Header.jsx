@@ -6,13 +6,13 @@ const Header = () => {
     <>
       <header className="header header-5">
         <div className="header-middle sticky-header">
-          <div className="container-fluid">
+          <div className="container">
             <div className="header-left">
               <button className="mobile-menu-toggler">
                 <span className="sr-only">Toggle mobile menu</span>
                 <i className="icon-bars" />
               </button>
-              <a href="/" className="logo mr-5">
+              <a href="/" className="logo ml-5">
                 <img
                   src="assets/images/demos/demo-5/logo-a-removebg-preview.png"
                   // src="src/components/logo.png"
@@ -22,7 +22,7 @@ const Header = () => {
                 />
               </a>
             </div>
-            <div className="header-right">
+            <div className="header-right mr-5">
               <nav className=" main-nav">
                 <ul className="menu sf-arrows">
                   <li>
