@@ -51,10 +51,7 @@ const AboutUs = () => {
             <div className="col-sm-6 col-lg-3">
               <div className="member member-2 text-center">
                 <figure className="member-media">
-                  <img
-                    src="assets/images/team/about-2/member-1.jpg"
-                    alt="member photo"
-                  />
+                  <img src="assets/images/team/about-2/member-1.jpg" alt="" />
                   <figcaption className="member-overlay">
                     <div className="social-icons social-icons-simple">
                       <a
@@ -101,10 +98,7 @@ const AboutUs = () => {
             <div className="col-sm-6 col-lg-3">
               <div className="member member-2 text-center">
                 <figure className="member-media">
-                  <img
-                    src="assets/images/team/about-2/member-2.jpg"
-                    alt="member photo"
-                  />
+                  <img src="assets/images/team/about-2/member-2.jpg" alt="" />
                   <figcaption className="member-overlay">
                     <div className="social-icons social-icons-simple">
                       <a
@@ -151,10 +145,7 @@ const AboutUs = () => {
             <div className="col-sm-6 col-lg-3">
               <div className="member member-2 text-center">
                 <figure className="member-media">
-                  <img
-                    src="assets/images/team/about-2/member-3.jpg"
-                    alt="member photo"
-                  />
+                  <img src="assets/images/team/about-2/member-3.jpg" alt="" />
                   <figcaption className="member-overlay">
                     <div className="social-icons social-icons-simple">
                       <a
@@ -201,10 +192,7 @@ const AboutUs = () => {
             <div className="col-sm-6 col-lg-3">
               <div className="member member-2 text-center">
                 <figure className="member-media">
-                  <img
-                    src="assets/images/team/about-2/member-4.jpg"
-                    alt="member photo"
-                  />
+                  <img src="assets/images/team/about-2/member-4.jpg" alt="" />
                   <figcaption className="member-overlay">
                     <div className="social-icons social-icons-simple">
                       <a
@@ -279,49 +267,49 @@ const AboutUs = () => {
               <div className="row justify-content-center">
                 <div className="col-6 col-sm-4 col-md-3">
                   <a href="/" className="brand">
-                    <img src="assets/images/brands/1.png" alt="Brand Name" />
+                    <img src="assets/images/brands/1.png" alt="" />
                   </a>
                 </div>
                 {/* End .col-md-3 */}
                 <div className="col-6 col-sm-4 col-md-3">
                   <a href="/" className="brand">
-                    <img src="assets/images/brands/2.png" alt="Brand Name" />
+                    <img src="assets/images/brands/2.png" alt="" />
                   </a>
                 </div>
                 {/* End .col-md-3 */}
                 <div className="col-6 col-sm-4 col-md-3">
                   <a href="/" className="brand">
-                    <img src="assets/images/brands/3.png" alt="Brand Name" />
+                    <img src="assets/images/brands/3.png" alt="" />
                   </a>
                 </div>
                 {/* End .col-md-3 */}
                 <div className="col-6 col-sm-4 col-md-3">
                   <a href="/" className="brand">
-                    <img src="assets/images/brands/7.png" alt="Brand Name" />
+                    <img src="assets/images/brands/7.png" alt="" />
                   </a>
                 </div>
                 {/* End .col-md-3 */}
                 <div className="col-6 col-sm-4 col-md-3">
                   <a href="/" className="brand">
-                    <img src="assets/images/brands/4.png" alt="Brand Name" />
+                    <img src="assets/images/brands/4.png" alt="" />
                   </a>
                 </div>
                 {/* End .col-md-3 */}
                 <div className="col-6 col-sm-4 col-md-3">
                   <a href="/" className="brand">
-                    <img src="assets/images/brands/5.png" alt="Brand Name" />
+                    <img src="assets/images/brands/5.png" alt="" />
                   </a>
                 </div>
                 {/* End .col-md-3 */}
                 <div className="col-6 col-sm-4 col-md-3">
                   <a href="/" className="brand">
-                    <img src="assets/images/brands/6.png" alt="Brand Name" />
+                    <img src="assets/images/brands/6.png" alt="" />
                   </a>
                 </div>
                 {/* End .col-md-3 */}
                 <div className="col-6 col-sm-4 col-md-3">
                   <a href="/" className="brand">
-                    <img src="assets/images/brands/9.png" alt="Brand Name" />
+                    <img src="assets/images/brands/9.png" alt="" />
                   </a>
                 </div>
                 {/* End .col-md-3 */}
