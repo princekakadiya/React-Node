@@ -1,4 +1,5 @@
 import React from "react";
+import ContactDetail from "../components/ContactDetail";
 import MobileMenu from "../components/MobileMenu";
 
 const ContactUs = () => {
@@ -11,7 +12,7 @@ const ContactUs = () => {
         }}
       ></div>
       <div>
-        Contact US
+        <ContactDetail />
         <MobileMenu />
       </div>
     </>

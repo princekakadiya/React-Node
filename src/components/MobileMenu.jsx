@@ -17,7 +17,7 @@ const MobileMenu = () => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="productlist">Product</a>
+                <a href="categorylist">Product</a>
               </li>
               <li>
                 <a href="product.html" className="sf-with-ul">

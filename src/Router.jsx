@@ -25,7 +25,7 @@ const Router = () => {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="gallery" element={<Gallery />} />
-        <Route path="send-inquiry" element={<SendInquiry />} />
+        <Route path="inquiry" element={<SendInquiry />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
