@@ -1,21 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MobileMenu from "../components/MobileMenu";
 
 const ProductList = () => {
   return (
     <>
-      {/* <div className="page-wrapeer"> */}
       <main className="main">
         <div
           className="page-header text-center"
           style={{
             backgroundImage: 'url("assets/images/page-header-bg.jpg")',
           }}
-        >
-          {/* End .container */}
-        </div>
-        {/* End .page-header */}
-
+        ></div>{" "}
+        <nav
+          aria-label="breadcrumb"
+          className="breadcrumb-nav breadcrumb-with-filter"
+        ></nav>
         <div className="page-content">
           <div className="container">
             <div className="entry-container max-col-4" data-layout="fitRows">
@@ -38,7 +38,7 @@ const ProductList = () => {
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
-                      <a href="single.html">Cras ornare tristique elit.</a>
+                      <a href="single.html">Cras ornare trist.</a>
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
@@ -48,7 +48,7 @@ const ProductList = () => {
                     <div className="entry-content">
                       <p>
                         Sed pretium, ligula sollicitudin laoreet viverra, tortor
-                        libero sodales leo, eget blandit nunc tortor eu nibh.{" "}
+                        libero sodales leo, eget
                       </p>
                       <Link to="/productdetail" className="read-more">
                         More Info
@@ -80,9 +80,7 @@ const ProductList = () => {
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
-                      <a href="single.html">
-                        Vivamus vestibulum ntulla necante.
-                      </a>
+                      <a href="single.html">Vivamus vestibulum</a>
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
@@ -93,9 +91,9 @@ const ProductList = () => {
                       <p>
                         Morbi purus libero, faucibus commodo quis, gravida id,
                       </p>
-                      <a href="single.html" className="read-more">
-                        Continue Reading
-                      </a>
+                      <Link to="/productdetail" className="read-more">
+                        More Info
+                      </Link>
                     </div>
                     {/* End .entry-content */}
                   </div>
@@ -107,24 +105,12 @@ const ProductList = () => {
               <div className="entry-item lifestyle fashion col-sm-6 col-md-4 col-lg-3">
                 <article className="entry entry-grid text-center">
                   <figure className="entry-media">
-                    <div
-                      className="owl-carousel owl-simple owl-light owl-nav-inside"
-                      data-toggle="owl"
-                    >
-                      <a href="single.html">
-                        <img
-                          src="assets/images/blog/grid/4cols/post-3.jpg"
-                          alt=""
-                        />
-                      </a>
-                      <a href="single.html">
-                        <img
-                          src="assets/images/blog/grid/4cols/post-4.jpg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
-                    {/* End .owl-carousel */}
+                    <a href="single.html">
+                      <img
+                        src="assets/images/blog/grid/4cols/post-3.jpg"
+                        alt=""
+                      />
+                    </a>
                   </figure>
                   {/* End .entry-media */}
                   <div className="entry-body">
@@ -144,11 +130,11 @@ const ProductList = () => {
                     {/* End .entry-cats */}
                     <div className="entry-content">
                       <p>
-                        Sed pretium, ligula sollicitudin laoreet viverra, tortor
+                        Sed pretium, ligula sollicitudin laoreet pretium systel
                       </p>
-                      <a href="single.html" className="read-more">
-                        Continue Reading
-                      </a>
+                      <Link to="/productdetail" className="read-more">
+                        More Info
+                      </Link>
                     </div>
                     {/* End .entry-content */}
                   </div>
@@ -176,7 +162,7 @@ const ProductList = () => {
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
-                      <a href="single.html">Fusce pellentesque suscipit.</a>
+                      <a href="single.html">Fusce pellentesque.</a>
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
@@ -186,11 +172,11 @@ const ProductList = () => {
                     <div className="entry-content">
                       <p>
                         Praesent dapibus, neque id cursus faucibus, tortor neque
-                        egestas auguae, eu vulputate magna eros ...
+                        egestas
                       </p>
-                      <a href="single.html" className="read-more">
-                        Continue Reading
-                      </a>
+                      <Link to="/productdetail" className="read-more">
+                        More Info
+                      </Link>
                     </div>
                     {/* End .entry-content */}
                   </div>
@@ -218,9 +204,7 @@ const ProductList = () => {
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
-                      <a href="single.html">
-                        Aenean dignissim pellente squefelis.
-                      </a>
+                      <a href="single.html">Aenean dignissim squefelis.</a>
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
@@ -229,12 +213,12 @@ const ProductList = () => {
                     {/* End .entry-cats */}
                     <div className="entry-content">
                       <p>
-                        Aliquam erat volutpat. Nam dui mi, tincidunt quis,
-                        accumsan porttitor, facilisis luctus, metus ...{" "}
+                        Aliquam erat volutpat. Nam dui mi, facilisis luctus,
+                        metus ...
                       </p>
-                      <a href="single.html" className="read-more">
-                        Continue Reading
-                      </a>
+                      <Link to="/productdetail" className="read-more">
+                        More Info
+                      </Link>
                     </div>
                     {/* End .entry-content */}
                   </div>
@@ -262,7 +246,7 @@ const ProductList = () => {
                     </div>
                     {/* End .entry-meta */}
                     <h2 className="entry-title">
-                      <a href="single.html">Quisque volutpat mattiseros.</a>
+                      <a href="single.html">Quisque mattiseros.</a>
                     </h2>
                     {/* End .entry-title */}
                     <div className="entry-cats">
@@ -272,12 +256,11 @@ const ProductList = () => {
                     <div className="entry-content">
                       <p>
                         Nam dui mi, tincidunt quis, accumsan porttitor,
-                        facilisis luctus, metus. Phasellus ultrices nulla quis
-                        ...
+                        facilisis luctus, metus. ...
                       </p>
-                      <a href="single.html" className="read-more">
-                        Continue Reading
-                      </a>
+                      <Link to="/productdetail" className="read-more">
+                        More Info
+                      </Link>
                     </div>
                     {/* End .entry-content */}
                   </div>
@@ -289,23 +272,12 @@ const ProductList = () => {
               <div className="entry-item travel col-sm-6 col-md-4 col-lg-3">
                 <article className="entry entry-grid text-center">
                   <figure className="entry-media">
-                    <div
-                      className="owl-carousel owl-simple owl-light owl-nav-inside"
-                      data-toggle="owl"
-                    >
-                      <a href="single.html">
-                        <img
-                          src="assets/images/blog/grid/4cols/post-7.jpg"
-                          alt=""
-                        />
-                      </a>
-                      <a href="single.html">
-                        <img
-                          src="assets/images/blog/grid/4cols/post-6.jpg"
-                          alt=""
-                        />
-                      </a>
-                    </div>
+                    <a href="single.html">
+                      <img
+                        src="assets/images/blog/grid/4cols/post-7.jpg"
+                        alt=""
+                      />
+                    </a>
                     {/* End .owl-carousel */}
                   </figure>
                   {/* End .entry-media */}
@@ -326,12 +298,11 @@ const ProductList = () => {
                     {/* End .entry-cats */}
                     <div className="entry-content">
                       <p>
-                        Praesent dapibus, neque id cursus faucibus, tortor neque
-                        egestas auguae, eu vulputate magna eros ...
+                        Praesent dapibus, neque id, eu vulputate magna eros ...
                       </p>
-                      <a href="single.html" className="read-more">
-                        Continue Reading
-                      </a>
+                      <Link to="/productdetail" className="read-more">
+                        More Info
+                      </Link>
                     </div>
                     {/* End .entry-content */}
                   </div>
@@ -368,12 +339,12 @@ const ProductList = () => {
                     {/* End .entry-cats */}
                     <div className="entry-content">
                       <p>
-                        Aliquam erat volutpat. Nam dui mi, tincidunt quis,
-                        accumsan porttitor, facilisis luctus, metus ...{" "}
+                        Aliquam erat volutpat. Nam dui mi, facilisis luctus,
+                        metus ...
                       </p>
-                      <a href="single.html" className="read-more">
-                        Continue Reading
-                      </a>
+                      <Link to="/productdetail" className="read-more">
+                        More Info
+                      </Link>
                     </div>
                     {/* End .entry-content */}
                   </div>
@@ -416,7 +387,7 @@ const ProductList = () => {
                     href="/"
                     aria-label="Next"
                   >
-                    Next{" "}
+                    Next
                     <span aria-hidden="true">
                       <i className="icon-long-arrow-right" />
                     </span>
@@ -432,88 +403,8 @@ const ProductList = () => {
       {/* </div> */}
       <button id="scroll-top" title="Back to Top">
         <i className="icon-arrow-up" />
-      </button>{" "}
-      {/* Mobile Menu */}
-      <div className="mobile-menu-overlay" />
-      {/* End .mobil-menu-overlay */}
-      <div className="mobile-menu-container mobile-menu-light">
-        <div className="mobile-menu-wrapper">
-          <span className="mobile-menu-close">
-            <i className="icon-close" />
-          </span>
-          <nav className="mobile-nav mt-5">
-            <ul className="mobile-menu">
-              <li className="active">
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="productlist">Product</a>
-              </li>
-              <li>
-                <a href="product.html" className="sf-with-ul">
-                  Media
-                </a>
-                <ul>
-                  <li>
-                    <a href="blogs">Blogs</a>
-                  </li>
-                  <li>
-                    <a href="gallery">Gallery</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="aboutus">About Us</a>
-              </li>
-              <li>
-                <a href="contactus">Contact Us</a>
-              </li>
-            </ul>
-          </nav>
-          {/* End .mobile-nav */}
-          <div className="social-icons">
-            <a
-              href="https://www.facebook.com/"
-              className="social-icon"
-              target="_blank"
-              rel="noreferrer"
-              title="Facebook"
-            >
-              <i className="icon-facebook-f" />
-            </a>
-            <a
-              href="https://www.twitter.com/"
-              className="social-icon"
-              target="_blank"
-              rel="noreferrer"
-              title="Twitter"
-            >
-              <i className="icon-twitter" />
-            </a>
-            <a
-              href="https://www.instagram.com/"
-              className="social-icon"
-              target="_blank"
-              rel="noreferrer"
-              title="Instagram"
-            >
-              <i className="icon-instagram" />
-            </a>
-            <a
-              href="https://www.youtube.com/"
-              className="social-icon"
-              target="_blank"
-              rel="noreferrer"
-              title="Youtube"
-            >
-              <i className="icon-youtube" />
-            </a>
-          </div>
-          {/* End .social-icons */}
-        </div>
-        {/* End .mobile-menu-wrapper */}
-      </div>
-      {/* End .mobile-menu-container */}
+      </button>
+      <MobileMenu />
     </>
   );
 };
