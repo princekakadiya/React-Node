@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MobileMenu from "../components/MobileMenu";
 
 const ProductDetail = () => {
   return (
@@ -279,11 +280,11 @@ const ProductDetail = () => {
                 <div
                   className="tab-pane fade"
                   id="product-review-tab"
-                  role="tabpanel"
+                  href
                   aria-labelledby="product-review-link"
                 >
                   <div className="reviews">
-                    <h3>Reviews (2)</h3>
+                    <h3>Reviews (2)</h3>href
                     <div className="review">
                       <div className="row no-gutters">
                         <div className="col-auto">
@@ -616,6 +617,7 @@ const ProductDetail = () => {
         {/* End .page-content */}
       </main>
       {/* End .main */}
+      <MobileMenu />
     </>
   );
 };

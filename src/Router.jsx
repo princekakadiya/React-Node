@@ -10,6 +10,7 @@ import ProductDetail from "./pages/ProductDetail";
 import ProductList from "./pages/ProductList";
 import Gallery from "./pages/Gallery";
 import Blog from "./pages/Blog";
+import SendInquiry from "./pages/SendInquiry";
 
 const Router = () => {
   return (
@@ -24,6 +25,7 @@ const Router = () => {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="gallery" element={<Gallery />} />
+        <Route path="send-inquiry" element={<SendInquiry />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

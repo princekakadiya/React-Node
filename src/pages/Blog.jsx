@@ -1,4 +1,5 @@
 import React from "react";
+import MobileMenu from "../components/MobileMenu";
 
 const Blog = () => {
   return (
@@ -127,6 +128,7 @@ const Blog = () => {
         </div>
         {/* End .page-content */}
       </div>
+      <MobileMenu />
     </>
   );
 };

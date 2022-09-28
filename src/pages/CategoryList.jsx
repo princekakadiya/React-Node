@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MobileMenu from "../components/MobileMenu";
 
 const CategoryList = () => {
   return (
@@ -16,10 +17,7 @@ const CategoryList = () => {
           <nav
             aria-label="breadcrumb"
             className="breadcrumb-nav breadcrumb-with-filter"
-          >
-            <div className="container"></div>
-            {/* End .container-fluid */}
-          </nav>
+          ></nav>
           {/* End .breadcrumb-nav */}
           <div className="page-content">
             <div className="categories-page">
@@ -490,6 +488,7 @@ const CategoryList = () => {
           {/* End .page-content */}
         </main>
       </div>
+      <MobileMenu />
     </>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import MobileMenu from "../components/MobileMenu";
 
 const Gallery = () => {
   return (
@@ -263,7 +264,7 @@ const Gallery = () => {
         </div>
         {/* End .container */}
       </div>
-      {/* End .page-content */}
+      <MobileMenu />
     </>
   );
 };
