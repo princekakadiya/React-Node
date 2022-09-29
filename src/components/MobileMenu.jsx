@@ -24,13 +24,9 @@ const MobileMenu = () => {
                 <Link to="/aboutus">About Us</Link>
               </li>
               <li>
-                <Link
-                  style={{ fontWeight: "0" }}
-                  to="/categorylist"
-                  className="sf-with-ul"
-                >
+                <a href="/categorylist" className="sf-with-ul">
                   Product
-                </Link>
+                </a>
                 <ul>
                   <li>
                     <Link to="/productlist">Category-1</Link>
