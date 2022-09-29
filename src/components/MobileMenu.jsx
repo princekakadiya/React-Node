@@ -17,59 +17,61 @@ const MobileMenu = () => {
           </span>
           <nav className="mobile-nav mt-5">
             <ul className="mobile-menu">
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/aboutus">About Us</Link>
-              </li>
-              <li>
-                <a href="/categorylist" className="sf-with-ul">
-                  Product
-                </a>
-                <ul>
-                  <li>
-                    <Link to="/productlist">Category-1</Link>
-                  </li>
-                  <li>
-                    <Link to="/productlist">Category-2</Link>
-                  </li>
-                  <li>
-                    <Link to="/productlist">Category-3</Link>
-                  </li>
-                  <li>
-                    <Link to="/productlist">Category-4</Link>
-                  </li>
-                  <li>
-                    <Link to="/productlist">Category-5</Link>
-                  </li>
-                  <li>
-                    <Link to="/productlist">Category-6</Link>
-                  </li>
-                  <li>
-                    <Link to="/productlist">Category-7</Link>
-                  </li>
-                  <li>
-                    <Link to="/productlist">Category-8</Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="/" className="sf-with-ul">
-                  Media
-                </a>
-                <ul>
-                  <li>
-                    <Link to="/blog">Blogs</Link>
-                  </li>
-                  <li>
-                    <Link to="gallery">Gallery</Link>
-                  </li>
-                </ul>
-              </li>
+              <li className="active">
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/aboutus">About Us</Link>
+                </li>
+                <li>
+                  <a href="/categorylist" className="sf-with-ul">
+                    Product
+                  </a>
+                  <ul>
+                    <li>
+                      <Link to="/productlist">Category-1</Link>
+                    </li>
+                    <li>
+                      <Link to="/productlist">Category-2</Link>
+                    </li>
+                    <li>
+                      <Link to="/productlist">Category-3</Link>
+                    </li>
+                    <li>
+                      <Link to="/productlist">Category-4</Link>
+                    </li>
+                    <li>
+                      <Link to="/productlist">Category-5</Link>
+                    </li>
+                    <li>
+                      <Link to="/productlist">Category-6</Link>
+                    </li>
+                    <li>
+                      <Link to="/productlist">Category-7</Link>
+                    </li>
+                    <li>
+                      <Link to="/productlist">Category-8</Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="/" className="sf-with-ul">
+                    Media
+                  </a>
+                  <ul>
+                    <li>
+                      <Link to="/blog">Blogs</Link>
+                    </li>
+                    <li>
+                      <Link to="gallery">Gallery</Link>
+                    </li>
+                  </ul>
+                </li>
 
-              <li>
-                <Link to="/contactus">Contact Us</Link>
+                <li>
+                  <Link to="/contactus">Contact Us</Link>
+                </li>
               </li>
             </ul>
           </nav>
