@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MobileMenu from "../components/MobileMenu";
 
 const Blog = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="page-wrapper">
@@ -11,6 +14,21 @@ const Blog = () => {
             backgroundImage: 'url("assets/images/page-header-bg.jpg")',
           }}
         ></div>
+        <nav
+          aria-label="breadcrumb"
+          className="breadcrumb-nav breadcrumb-with-filter"
+        ></nav>
+        <div
+          className="page-header text-center mb-5"
+          style={{
+            backgroundImage: 'url("assets/images/page-header-green.jpg")',
+          }}
+        >
+          <div className="container">
+            <h1 className="page-title">Blogs</h1>
+          </div>
+          {/* End .container */}
+        </div>
         <div className="page-content">
           <div className="container">
             <article className="entry entry-list">
@@ -18,7 +36,10 @@ const Blog = () => {
                 <div className="col-md-4">
                   <figure className="entry-media">
                     <a href="single.html">
-                      <img src="assets/images/blog/listing/post-1.jpg" alt="" />
+                      <img
+                        src="assets/images/demos/demo-5/products/1.jpg"
+                        alt=""
+                      />
                     </a>
                   </figure>
                   {/* End .entry-media */}
@@ -73,7 +94,10 @@ const Blog = () => {
                 <div className="col-md-4">
                   <figure className="entry-media entry-video">
                     <a href="single.html">
-                      <img src="assets/images/blog/listing/post-2.jpg" alt="" />
+                      <img
+                        src="assets/images/demos/demo-5/products/2.jpg"
+                        alt=""
+                      />
                     </a>
                   </figure>
                   {/* End .entry-media */}

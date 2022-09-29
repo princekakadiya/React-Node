@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import MobileMenu from "../components/MobileMenu";
 
 const CategoryList = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="page-wrapeer">
@@ -17,6 +20,17 @@ const CategoryList = () => {
             aria-label="breadcrumb"
             className="breadcrumb-nav breadcrumb-with-filter"
           ></nav>
+          <div
+            className="page-header text-center mb-5"
+            style={{
+              backgroundImage: 'url("assets/images/page-header-green.jpg")',
+            }}
+          >
+            <div className="container">
+              <h1 className="page-title">Category List</h1>
+            </div>
+            {/* End .container */}
+          </div>
           <div className="page-content">
             <div className="categories-page">
               <div className="container">
@@ -122,7 +136,7 @@ const CategoryList = () => {
                       </Link>
                       <span className="banner-link">
                         <h3 className="banner-title">Category name</h3>
-                        <h4 className="banner-subtitle">2 Products</h4>
+                       <h4 className="banner-subtitle">2 Products</h4>
                         <Link className="banner-link-text" to="productlist">
                           See Alls
                         </Link>
