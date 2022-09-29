@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MobileMenu from "../components/MobileMenu";
 
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div
@@ -10,6 +14,51 @@ const AboutUs = () => {
           backgroundImage: 'url("assets/images/page-header-bg.jpg")',
         }}
       ></div>
+      <nav
+        aria-label="breadcrumb"
+        className="breadcrumb-nav breadcrumb-with-filter"
+      ></nav>
+      <div
+        className="page-header text-center mb-5"
+        style={{
+          backgroundImage: 'url("assets/images/page-header-green.jpg")',
+        }}
+      >
+        <div className="container">
+          <h1 className="page-title">About Us</h1>
+        </div>
+        {/* End .container */}
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 mb-3 mb-lg-0">
+            <h2 className="title">Our Vision</h2>
+            {/* End .title */}
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+              Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
+              neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
+              ligula sollicitudin laoreet viverra, tortor libero sodales leo,
+              eget blandit nunc tortor eu nibh.{" "}
+            </p>
+          </div>
+          {/* End .col-lg-6 */}
+          <div className="col-lg-6">
+            <h2 className="title">Our Mission</h2>
+            {/* End .title */}
+            <p>
+              Sed egestas, ante et vulputate volutpat, eros pede semper est,
+              vitae luctus metus libero eu augue. Morbi purus libero, faucibus
+              adipiscing, commodo quis, gravida id, est. Sed lectus. <br />
+              Praesent elementum hendrerit tortor. Sed semper lorem at felis.{" "}
+            </p>
+          </div>
+          {/* End .col-lg-6 */}
+        </div>
+        {/* End .row */}
+        <div className="mb-5" />
+        {/* End .mb-4 */}
+      </div>
 
 <div className="bg-light-2 pt-6 pb-7 mb-6">
         <div className="container">

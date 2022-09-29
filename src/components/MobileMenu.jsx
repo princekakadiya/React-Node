@@ -1,42 +1,47 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const MobileMenu = () => {
   return (
-    <div>
-      {" "}
+    <>
       <div className="mobile-menu-overlay" />
       {/* End .mobil-menu-overlay */}
       <div className="mobile-menu-container mobile-menu-light">
         <div className="mobile-menu-wrapper">
+          <button className="mobile-menu-toggler">
+            <span className="sr-only">Toggle mobile menu</span>
+            <i className="icon-bars" />
+          </button>
+
           <span className="mobile-menu-close">
             <i className="icon-close" />
           </span>
           <nav className="mobile-nav mt-5">
             <ul className="mobile-menu">
               <li className="active">
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="categorylist">Product</a>
+                <Link to="/categorylist">Product</Link>
               </li>
               <li>
-                <a href="product.html" className="sf-with-ul">
+                <Link to="" className="sf-with-ul">
                   Media
-                </a>
+                </Link>
                 <ul>
                   <li>
-                    <a href="blogs">Blogs</a>
+                    <Link to="/blog">Blogs</Link>
                   </li>
                   <li>
-                    <a href="gallery">Gallery</a>
+                    <Link to="/gallery">Gallery</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="aboutus">About Us</a>
+                <Link to="/aboutus">About Us</Link>
               </li>
               <li>
-                <a href="contactus">Contact Us</a>
+                <Link to="/contactus">Contact Us</Link>
               </li>
             </ul>
           </nav>
@@ -83,7 +88,7 @@ const MobileMenu = () => {
         </div>
         {/* End .mobile-menu-wrapper */}
       </div>
-    </div>
+    </>
   );
 };
 

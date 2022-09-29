@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import MobileMenu from "../components/MobileMenu";
 
 const ProductDetail = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <main className="main">
         <div
           className="page-header text-center mb-5"
           style={{
-            backgroundImage: 'url("assets/images/page-header-bg.jpg")',
+            backgroundImage: 'url("assets/images/page-header-green.jpg")',
           }}
         >
           {/* End .container */}
