@@ -65,192 +65,57 @@ const AboutUs = () => {
 
         <div className="bg-light-2 pt-6 pb-7 mb-6">
           <div className="container">
-            <h2 className="title text-center mb-4">Meet Our Team</h2>
+            <h2 className="title text-center mb-5">Meet Our Team</h2>
             {/* End .title text-center mb-2 */}
             <div className="row">
-              <div className="col-sm-6 col-lg-3">
+              <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
+                <center><h2 className="title text-center text-success mb-4 w-75" >Certificate 1</h2></center>
                 <div className="member member-2 text-center">
                   <figure className="member-media">
-                    <img src="assets/images/team/about-2/member-1.jpg" alt="" />
-                    <figcaption className="member-overlay">
-                      <div className="social-icons social-icons-simple">
-                        <a
-                          href="https://www.facebook.com/"
-                          className="social-icon"
-                          title="Facebook"
-                          target="_blank"
-                        >
-                          <i className="icon-facebook-f" />
-                        </a>
-                        <a
-                          href="https://www.twitter.com/"
-                          className="social-icon"
-                          title="Twitter"
-                          target="_blank"
-                        >
-                          <i className="icon-twitter" />
-                        </a>
-                        <a
-                          href="https://www.instagram.com/"
-                          className="social-icon"
-                          title="Instagram"
-                          target="_blank"
-                        >
-                          <i className="icon-instagram" />
-                        </a>
-                      </div>
-                      {/* End .soial-icons */}
-                    </figcaption>
+                    <img src="assets/images/team/about-2/1.jpeg" alt="" />
                     {/* End .member-overlay */}
                   </figure>
                   {/* End .member-media */}
-                  <div className="member-content">
-                    <h3 className="member-title">
-                      Samanta Grey<span>Founder &amp; CEO</span>
-                    </h3>
-                    {/* End .member-title */}
-                  </div>
                   {/* End .member-content */}
                 </div>
                 {/* End .member */}
               </div>
               {/* End .col-lg-3 */}
-              <div className="col-sm-6 col-lg-3">
+              <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
+                <center><h2 className="title text-center text-success mb-4 w-75" >Certificate 1</h2></center>
                 <div className="member member-2 text-center">
                   <figure className="member-media">
-                    <img src="assets/images/team/about-2/member-2.jpg" alt="" />
-                    <figcaption className="member-overlay">
-                      <div className="social-icons social-icons-simple">
-                        <a
-                          href="https://www.facebook.com/"
-                          className="social-icon"
-                          title="Facebook"
-                          target="_blank"
-                        >
-                          <i className="icon-facebook-f" />
-                        </a>
-                        <a
-                          href="https://www.facebook.com/"
-                          className="social-icon"
-                          title="Twitter"
-                          target="_blank"
-                        >
-                          <i className="icon-twitter" />
-                        </a>
-                        <a
-                          href="https://www.facebook.com/"
-                          className="social-icon"
-                          title="Instagram"
-                          target="_blank"
-                        >
-                          <i className="icon-instagram" />
-                        </a>
-                      </div>
-                      {/* End .soial-icons */}
-                    </figcaption>
+                    <img src="assets/images/team/about-2/2.jpeg" alt="" />
                     {/* End .member-overlay */}
                   </figure>
                   {/* End .member-media */}
-                  <div className="member-content">
-                    <h3 className="member-title">
-                      Bruce Sutton<span>Sales &amp; Marketing Manager</span>
-                    </h3>
-                    {/* End .member-title */}
-                  </div>
                   {/* End .member-content */}
                 </div>
                 {/* End .member */}
               </div>
               {/* End .col-lg-3 */}
-              <div className="col-sm-6 col-lg-3">
+              <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
+                <center><h2 className="title text-center text-success mb-4 w-75" >Certificate 1</h2></center>
                 <div className="member member-2 text-center">
                   <figure className="member-media">
-                    <img src="assets/images/team/about-2/member-3.jpg" alt="" />
-                    <figcaption className="member-overlay">
-                      <div className="social-icons social-icons-simple">
-                        <a
-                          href="https://www.facebook.com/"
-                          className="social-icon"
-                          title="Facebook"
-                          target="_blank"
-                        >
-                          <i className="icon-facebook-f" />
-                        </a>
-                        <a
-                          href="https://www.facebook.com/"
-                          className="social-icon"
-                          title="Twitter"
-                          target="_blank"
-                        >
-                          <i className="icon-twitter" />
-                        </a>
-                        <a
-                          href="https://www.facebook.com/"
-                          className="social-icon"
-                          title="Instagram"
-                          target="_blank"
-                        >
-                          <i className="icon-instagram" />
-                        </a>
-                      </div>
-                      {/* End .soial-icons */}
-                    </figcaption>
+                    <img src="assets/images/team/about-2/3.jpeg" alt="" />
                     {/* End .member-overlay */}
                   </figure>
                   {/* End .member-media */}
-                  <div className="member-content">
-                    <h3 className="member-title">
-                      Janet Joy<span>Product Manager</span>
-                    </h3>
-                    {/* End .member-title */}
-                  </div>
+
                   {/* End .member-content */}
                 </div>
                 {/* End .member */}
               </div>
               {/* End .col-lg-3 */}
-              <div className="col-sm-6 col-lg-3">
+              <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
+                <center><h2 className="title text-center text-success mb-4 w-75" >Certificate 1</h2></center>
                 <div className="member member-2 text-center">
                   <figure className="member-media">
-                    <img src="assets/images/team/about-2/member-4.jpg" alt="" />
-                    <figcaption className="member-overlay">
-                      <div className="social-icons social-icons-simple">
-                        <a
-                          href="https://www.facebook.com/"
-                          className="social-icon"
-                          title="Facebook"
-                          target="_blank"
-                        >
-                          <i className="icon-facebook-f" />
-                        </a>
-                        <a
-                          href="https://www.facebook.com/"
-                          className="social-icon"
-                          title="Twitter"
-                          target="_blank"
-                        >
-                          <i className="icon-twitter" />
-                        </a>
-                        <a
-                          href="https://www.facebook.com/"
-                          className="social-icon"
-                          title="Instagram"
-                          target="_blank"
-                        >
-                          <i className="icon-instagram" />
-                        </a>
-                      </div>
-                      {/* End .soial-icons */}
-                    </figcaption>
+                    <img src="assets/images/team/about-2/4.jpeg" alt="" />
                     {/* End .member-overlay */}
                   </figure>
                   {/* End .member-media */}
-                  <div className="member-content">
-                    <h3 className="member-title">
-                      Mark Pocket<span>Product Manager</span>
-                    </h3>
-                    {/* End .member-title */}
-                  </div>
                   {/* End .member-content */}
                 </div>
                 {/* End .member */}

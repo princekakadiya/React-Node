@@ -159,49 +159,49 @@ const Footer = () => {
                       {/* Links */}
                       <h4 className="text-uppercase mb-4">Products</h4>
                       <p>
-                        <a href="/">Angular</a>
+                        <a href="/" className="text-dark" >Angular</a>
                       </p>
                       <p>
-                        <a href="/">React</a>
+                        <a href="/" className="text-dark" >React</a>
                       </p>
                       <p>
-                        <a href="/">Vue</a>
+                        <a href="/" className="text-dark" >Vue</a>
                       </p>
                       <p>
-                        <a href="/">Laravel</a>
+                        <a href="/" className="text-dark" >Laravel</a>
                       </p>
                     </div>
                     <div>
                       {/* Links */}
                       <h4 className="text-uppercase  mb-4">Products</h4>
                       <p>
-                        <a href="/">Angular</a>
-                      </p>
+                        <a href="/" className="text-dark" >Angular</a>
+                      </p> 
                       <p>
-                        <a href="/">React</a>
-                      </p>
+                        <a href="/" className="text-dark" >React</a>
+                      </p> 
                       <p>
-                        <a href="/">Vue</a>
-                      </p>
+                        <a href="/" className="text-dark" >Vue</a>
+                      </p> 
                       <p>
-                        <a href="/">Laravel</a>
-                      </p>
+                        <a href="/" className="text-dark" >Laravel</a>
+                      </p> 
                     </div>
                     <div>
                       {/* Links */}
                       <h4 className="text-uppercase  mb-4">Products</h4>
                       <p>
-                        <a href="/">Angular</a>
-                      </p>
+                        <a href="/" className="text-dark" >Angular</a>
+                      </p> 
                       <p>
-                        <a href="/">React</a>
-                      </p>
+                        <a href="/" className="text-dark" >React</a>
+                      </p> 
                       <p>
-                        <a href="/">Vue</a>
-                      </p>
+                        <a href="/" className="text-dark" >Vue</a>
+                      </p> 
                       <p>
-                        <a href="/">Laravel</a>
-                      </p>
+                        <a href="/" className="text-dark" >Laravel</a>
+                      </p> 
                     </div>
                   </div>
 
@@ -217,21 +217,21 @@ const Footer = () => {
         {/* End .footer-middle */}
         <div className="footer-bottom ">
           <div className="container">
-            <p className="footer-copyright ">
+            <p className="footer-copyright text-dark">
               Copyright © 2019 Arrayah Store. All Rights Reserved.
             </p>
             {/* End .footer-copyright */}
             <ul className="footer-menu">
               <li>
-                <a href="/">Terms Of Use</a>
+                <a href="/" className="text-dark">Terms Of Use</a>
               </li>
               <li>
-                <a href="/">Privacy Policy</a>
+                <a href="/" className="text-dark">Privacy Policy</a>
               </li>
             </ul>
             {/* End .footer-menu */}
             <div className="social-icons social-icons-color">
-              <span className="social-label ">Social Media</span>
+              <span className="social-label text-dark">Social Media</span>
               <a
                 href="/"
                 className="social-icon social-facebook"
