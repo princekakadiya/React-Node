@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const MainSlider = () => {
   return (
     <>
-      <div className="intro-slider-container mb-0">
+      <div className="intro-slider-container">
         <div
           className="intro-slider owl-carousel owl-theme owl-nav-inside owl-light"
           data-toggle="owl"
