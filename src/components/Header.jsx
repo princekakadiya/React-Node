@@ -10,7 +10,6 @@ const Header = () => {
             <div className="header-left">
               <button className="mobile-menu-toggler">
                 <span className="sr-only">Toggle mobile menu</span>
-                <i className="icon-bars" />
               </button>
               <a href="/" className="logo ml-5">
                 <img
