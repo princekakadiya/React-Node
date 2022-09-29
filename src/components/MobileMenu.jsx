@@ -10,7 +10,6 @@ const MobileMenu = () => {
         <div className="mobile-menu-wrapper">
           <button className="mobile-menu-toggler">
             <span className="sr-only">Toggle mobile menu</span>
-            <i className="icon-bars" />
           </button>
 
           <span className="mobile-menu-close">
