@@ -14,11 +14,22 @@ const ProductList = () => {
           style={{
             backgroundImage: 'url("assets/images/page-header-bg.jpg")',
           }}
-        ></div>{" "}
+        ></div>
         <nav
           aria-label="breadcrumb"
           className="breadcrumb-nav breadcrumb-with-filter"
         ></nav>
+        <div
+          className="page-header text-center mb-5"
+          style={{
+            backgroundImage: 'url("assets/images/page-header-green.jpg")',
+          }}
+        >
+          <div className="container">
+            <h1 className="page-title">Product List</h1>
+          </div>
+          {/* End .container */}
+        </div>
         <div className="page-content">
           <div className="container">
             <div className="entry-container max-col-4" data-layout="fitRows">
@@ -27,7 +38,7 @@ const ProductList = () => {
                   <figure className="entry-media">
                     <Link to="/productdetail">
                       <img
-                        src="assets/images/blog/grid/4cols/post-1.jpg"
+                        src="assets/images/demos/demo-5/products/1.jpg"
                         alt=""
                       />
                     </Link>
@@ -69,7 +80,7 @@ const ProductList = () => {
                   <figure className="entry-media entry-video">
                     <a href="single.html">
                       <img
-                        src="assets/images/blog/grid/4cols/post-2.jpg"
+                        src="assets/images/demos/demo-5/products/2.jpg"
                         alt=""
                       />
                     </a>
@@ -110,7 +121,7 @@ const ProductList = () => {
                   <figure className="entry-media">
                     <a href="single.html">
                       <img
-                        src="assets/images/blog/grid/4cols/post-3.jpg"
+                        src="assets/images/demos/demo-5/products/3.jpg"
                         alt=""
                       />
                     </a>
@@ -151,7 +162,7 @@ const ProductList = () => {
                   <figure className="entry-media">
                     <a href="single.html">
                       <img
-                        src="assets/images/blog/grid/4cols/post-4.jpg"
+                        src="assets/images/demos/demo-5/products/2.jpg"
                         alt=""
                       />
                     </a>
@@ -193,7 +204,7 @@ const ProductList = () => {
                   <figure className="entry-media">
                     <a href="single.html">
                       <img
-                        src="assets/images/blog/grid/4cols/post-5.jpg"
+                        src="assets/images/demos/demo-5/products/5.jpg"
                         alt=""
                       />
                     </a>
@@ -235,7 +246,7 @@ const ProductList = () => {
                   <figure className="entry-media">
                     <a href="single.html">
                       <img
-                        src="assets/images/blog/grid/4cols/post-6.jpg"
+                        src="assets/images/demos/demo-5/products/6.jpg"
                         alt=""
                       />
                     </a>
@@ -277,7 +288,7 @@ const ProductList = () => {
                   <figure className="entry-media">
                     <a href="single.html">
                       <img
-                        src="assets/images/blog/grid/4cols/post-7.jpg"
+                        src="assets/images/demos/demo-5/products/7.jpg"
                         alt=""
                       />
                     </a>
@@ -319,7 +330,7 @@ const ProductList = () => {
                   <figure className="entry-media">
                     <a href="single.html">
                       <img
-                        src="assets/images/blog/grid/4cols/post-8.jpg"
+                        src="assets/images/demos/demo-5/products/8.jpg"
                         alt=""
                       />
                     </a>

@@ -13,6 +13,21 @@ const SendInquiry = () => {
           backgroundImage: 'url("assets/images/page-header-bg.jpg")',
         }}
       ></div>
+      <nav
+        aria-label="breadcrumb"
+        className="breadcrumb-nav breadcrumb-with-filter"
+      ></nav>
+      <div
+        className="page-header text-center mb-5"
+        style={{
+          backgroundImage: 'url("assets/images/page-header-green.jpg")',
+        }}
+      >
+        <div className="container">
+          <h1 className="page-title">Send Inquiry</h1>
+        </div>
+        {/* End .container */}
+      </div>
       <div className="page-wrapper">
         <main className="main">
           <div className="page-content">

@@ -12,7 +12,7 @@ const ProductDetail = () => {
         <div
           className="page-header text-center mb-5"
           style={{
-            backgroundImage: 'url("assets/images/page-header-bg.jpg")',
+            backgroundImage: 'url("assets/images/page-header-green.jpg")',
           }}
         >
           {/* End .container */}
