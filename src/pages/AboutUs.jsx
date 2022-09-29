@@ -32,93 +32,64 @@ const AboutUs = () => {
           </div>
           {/* End .container */}
         </div>
+        {/* End .row */}
+        <div className="mb-5" />
+        {/* End .mb-4 */}
+      </div>
+
+<div className="bg-light-2 pt-6 pb-7 mb-6">
         <div className="container">
+          <h2 className="title text-center mb-5" data-aos="fade-down">Certification and Accerditation</h2>
+          {/* End .title text-center mb-2 */} 
           <div className="row">
-            <div className="col-lg-6 mb-3 mb-lg-0">
-              <h2 className="title">Our Vision</h2>
-              {/* End .title */}
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
-                neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                ligula sollicitudin laoreet viverra, tortor libero sodales leo,
-                eget blandit nunc tortor eu nibh.{" "}
-              </p>
+            <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
+          <center><h2 className="title text-center text-success mb-4 w-75">Certification 1</h2></center>
+              <div className="member member-2 text-center">
+                <figure className="member-media">
+                  <img src="assets/images/team/about-2/1.jpeg" alt="" />
+                  {/* End .member-overlay */}
+                </figure>
+                {/* End .member-media */}
+                {/* End .member-content */}
+              </div>
+              {/* End .member */}
             </div>
-            {/* End .col-lg-6 */}
-            <div className="col-lg-6">
-              <h2 className="title">Our Mission</h2>
-              {/* End .title */}
-              <p>
-                Sed egestas, ante et vulputate volutpat, eros pede semper est,
-                vitae luctus metus libero eu augue. Morbi purus libero, faucibus
-                adipiscing, commodo quis, gravida id, est. Sed lectus. <br />
-                Praesent elementum hendrerit tortor. Sed semper lorem at felis.{" "}
-              </p>
+
+            <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
+          <center><h2 className="title text-center text-success mb-4 w-75">Certification 2</h2></center>
+              <div className="member member-2 text-center">
+                <figure className="member-media">
+                  <img src="assets/images/team/about-2/2.jpeg" alt="" />
+                  {/* End .member-overlay */}
+                </figure>
+                {/* End .member-media */}
+                {/* End .member-content */}
+              </div>
+              {/* End .member */}
             </div>
-            {/* End .col-lg-6 */}
-          </div>
-          {/* End .row */}
-          <div className="mb-5" />
-          {/* End .mb-4 */}
-        </div>
 
-        <div className="bg-light-2 pt-6 pb-7 mb-6">
-          <div className="container">
-            <h2 className="title text-center mb-5">Meet Our Team</h2>
-            {/* End .title text-center mb-2 */}
-            <div className="row">
-              <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
-                <center><h2 className="title text-center text-success mb-4 w-75" >Certificate 1</h2></center>
-                <div className="member member-2 text-center">
-                  <figure className="member-media">
-                    <img src="assets/images/team/about-2/1.jpeg" alt="" />
-                    {/* End .member-overlay */}
-                  </figure>
-                  {/* End .member-media */}
-                  {/* End .member-content */}
-                </div>
-                {/* End .member */}
+            <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
+          <center><h2 className="title text-center text-success mb-4 w-75">Certification 3</h2></center>
+              <div className="member member-2 text-center">
+                <figure className="member-media">
+                  <img src="assets/images/team/about-2/3.jpeg" alt="" />
+                  {/* End .member-overlay */}
+                </figure>
+                {/* End .member-media */}
+                {/* End .member-content */}
               </div>
-              {/* End .col-lg-3 */}
-              <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
-                <center><h2 className="title text-center text-success mb-4 w-75" >Certificate 1</h2></center>
-                <div className="member member-2 text-center">
-                  <figure className="member-media">
-                    <img src="assets/images/team/about-2/2.jpeg" alt="" />
-                    {/* End .member-overlay */}
-                  </figure>
-                  {/* End .member-media */}
-                  {/* End .member-content */}
-                </div>
-                {/* End .member */}
-              </div>
-              {/* End .col-lg-3 */}
-              <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
-                <center><h2 className="title text-center text-success mb-4 w-75" >Certificate 1</h2></center>
-                <div className="member member-2 text-center">
-                  <figure className="member-media">
-                    <img src="assets/images/team/about-2/3.jpeg" alt="" />
-                    {/* End .member-overlay */}
-                  </figure>
-                  {/* End .member-media */}
+              {/* End .member */}
+            </div>
 
-                  {/* End .member-content */}
-                </div>
-                {/* End .member */}
-              </div>
-              {/* End .col-lg-3 */}
-              <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
-                <center><h2 className="title text-center text-success mb-4 w-75" >Certificate 1</h2></center>
-                <div className="member member-2 text-center">
-                  <figure className="member-media">
-                    <img src="assets/images/team/about-2/4.jpeg" alt="" />
-                    {/* End .member-overlay */}
-                  </figure>
-                  {/* End .member-media */}
-                  {/* End .member-content */}
-                </div>
-                {/* End .member */}
+            <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
+          <center><h2 className="title text-center text-success mb-4 w-75">Certification 4</h2></center>
+              <div className="member member-2 text-center">
+                <figure className="member-media">
+                  <img src="assets/images/team/about-2/4.jpeg" alt="" />
+                  {/* End .member-overlay */}
+                </figure>
+                {/* End .member-media */}
+                {/* End .member-content */}
               </div>
               {/* End .col-lg-3 */}
             </div>
