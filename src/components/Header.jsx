@@ -8,7 +8,7 @@ const Header = () => {
         <nav
           className="navbar navbar-navs navbar-expend navbar-expand-md fixed-top"
           id="menu-top"
-          style={{ background: "#dcedc8" }}
+          style={{ background: "rgb(0,100,0)" }}
         >
           <div className="container">
             <Link to="/" className="navbar-brand">
@@ -17,6 +17,7 @@ const Header = () => {
                 alt=""
                 width={105}
                 height={25}
+                style={{ background: "white" }}
               />
             </Link>
             <button
@@ -35,10 +36,10 @@ const Header = () => {
               id="navbarDefault"
             >
               <ul className="navbar-nav ml-auto">
-                <li className="menu-nav">
+                <li className="menu-nav main-menu active">
                   <Link
                     style={{
-                      color: "#52a933",
+                      color: "white",
                       fontSize: "1.7rem",
                       marginLeft: "2rem",
                     }}
@@ -49,10 +50,10 @@ const Header = () => {
                   </Link>
                 </li>
 
-                <li className="menu-nav dropdown">
+                <li className="menu-nav main-menu dropdown">
                   <Link
                     style={{
-                      color: "#52a933",
+                      color: "white",
                       fontSize: "1.7rem",
                       marginLeft: "2rem",
                     }}
@@ -65,7 +66,7 @@ const Header = () => {
 
                   <ul
                     className="dropdown-menu"
-                    style={{ backgroundColor: "#52a933" }}
+                    style={{ backgroundColor: "rgb(0,100,0)" }}
                   >
                     <li className="menu-nav">
                       <Link
@@ -79,6 +80,8 @@ const Header = () => {
                       >
                         Product 1
                       </Link>
+                    </li>
+                    <li className="menu-nav">
                       <Link
                         className="nav-link dropdoen-item page-scroll"
                         to="/productlist"
@@ -90,6 +93,8 @@ const Header = () => {
                       >
                         Product 2
                       </Link>
+                    </li>
+                    <li className="menu-nav">
                       <Link
                         className="nav-link dropdoen-item page-scroll"
                         to="/productlist"
@@ -101,6 +106,8 @@ const Header = () => {
                       >
                         Product 3
                       </Link>
+                    </li>
+                    <li className="menu-nav">
                       <Link
                         className="nav-link dropdoen-item page-scroll"
                         to="/productlist"
@@ -112,6 +119,8 @@ const Header = () => {
                       >
                         Product 4
                       </Link>
+                    </li>
+                    <li className="menu-nav">
                       <Link
                         className="nav-link dropdoen-item page-scroll"
                         to="/productlist"
@@ -123,6 +132,8 @@ const Header = () => {
                       >
                         Product 5
                       </Link>
+                    </li>
+                    <li className="menu-nav">
                       <Link
                         className="nav-link dropdoen-item page-scroll"
                         to="/productlist"
@@ -134,6 +145,8 @@ const Header = () => {
                       >
                         Product 6
                       </Link>
+                    </li>
+                    <li className="menu-nav">
                       <Link
                         className="nav-link dropdoen-item page-scroll"
                         to="/productlist"
@@ -145,6 +158,8 @@ const Header = () => {
                       >
                         Product 7
                       </Link>
+                    </li>
+                    <li className="menu-nav">
                       <Link
                         className="nav-link dropdoen-item page-scroll"
                         to="/productlist"
@@ -160,10 +175,10 @@ const Header = () => {
                   </ul>
                 </li>
 
-                <li className="menu-nav dropdown">
+                <li className="menu-nav main-menu dropdown">
                   <Link
                     style={{
-                      color: "#52a933",
+                      color: "white",
                       fontSize: "1.7rem",
                       marginLeft: "2rem",
                     }}
@@ -176,7 +191,7 @@ const Header = () => {
 
                   <ul
                     className="dropdown-menu"
-                    style={{ backgroundColor: "#52a933" }}
+                    style={{ backgroundColor: "rgb(0,100,0)" }}
                   >
                     <li className="menu-nav">
                       <Link
@@ -190,6 +205,8 @@ const Header = () => {
                       >
                         Blog
                       </Link>
+                    </li>
+                    <li>
                       <Link
                         className="nav-link dropdoen-item page-scroll"
                         to="/gallery"
@@ -205,10 +222,10 @@ const Header = () => {
                   </ul>
                 </li>
 
-                <li className="menu-nav">
+                <li className="menu-nav main-menu">
                   <Link
                     style={{
-                      color: "#52a933",
+                      color: "white",
                       fontSize: "1.7rem",
                       marginLeft: "2rem",
                     }}
