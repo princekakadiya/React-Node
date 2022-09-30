@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className="header header-5">
+      {/* <header className="header header-5">
         <div className="header-middle sticky-header">
           <div className="container">
             <div className="header-left">
@@ -87,6 +87,227 @@ const Header = () => {
             </div>
           </div>
         </div>
+      </header> */}
+
+      <header>
+        <nav
+          className="navbar navbar-navs navbar-expend navbar-expand-md fixed-top"
+          id="menu-top"
+          style={{ background: "#dcedc8" }}
+        >
+          <div className="container">
+            <a href="/" className="navbar-brand">
+              <img
+                src="assets/images/demos/demo-5/logo-a-removebg-preview.png"
+                alt=""
+                width={105}
+                height={25}
+              />
+            </a>
+            <button
+              className="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarDefault"
+              aria-controls="navbarDefault"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse justify-content-end"
+              id="navbarDefault"
+            >
+              <ul className="navbar-nav ml-auto">
+                <li className="menu-nav">
+                  <a
+                    style={{
+                      color: "#52a933",
+                      fontSize: "1.7rem",
+                      marginLeft: "2rem",
+                    }}
+                    className="nav-link page-scroll active"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+
+                <li className="menu-nav dropdown">
+                  <a
+                    style={{
+                      color: "#52a933",
+                      fontSize: "1.7rem",
+                      marginLeft: "2rem",
+                    }}
+                    className="nav-link dropdown-toggle page-scroll"
+                    href="/"
+                    data-toggle="dropdown"
+                  >
+                    Product
+                  </a>
+
+                  <ul
+                    className="dropdown-menu"
+                    style={{ backgroundColor: "#52a933" }}
+                  >
+                    <li className="menu-nav">
+                      <a
+                        className="nav-link dropdoen-item page-scroll"
+                        href="/productlist"
+                        style={{
+                          color: "white",
+                          fontSize: "1.7rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        Product 1
+                      </a>
+                      <a
+                        className="nav-link dropdoen-item page-scroll"
+                        href="/productlist"
+                        style={{
+                          color: "white",
+                          fontSize: "1.7rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        Product 2
+                      </a>
+                      <a
+                        className="nav-link dropdoen-item page-scroll"
+                        href="/productlist"
+                        style={{
+                          color: "white",
+                          fontSize: "1.7rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        Product 3
+                      </a>
+                      <a
+                        className="nav-link dropdoen-item page-scroll"
+                        href="/productlist"
+                        style={{
+                          color: "white",
+                          fontSize: "1.7rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        Product 4
+                      </a>
+                      <a
+                        className="nav-link dropdoen-item page-scroll"
+                        href="/productlist"
+                        style={{
+                          color: "white",
+                          fontSize: "1.7rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        Product 5
+                      </a>
+                      <a
+                        className="nav-link dropdoen-item page-scroll"
+                        href="/productlist"
+                        style={{
+                          color: "white",
+                          fontSize: "1.7rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        Product 6
+                      </a>
+                      <a
+                        className="nav-link dropdoen-item page-scroll"
+                        href="/productlist"
+                        style={{
+                          color: "white",
+                          fontSize: "1.7rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        Product 7
+                      </a>
+                      <a
+                        className="nav-link dropdoen-item page-scroll"
+                        href="/productlist"
+                        style={{
+                          color: "white",
+                          fontSize: "1.7rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        Product 8
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li className="menu-nav dropdown">
+                  <a
+                    style={{
+                      color: "#52a933",
+                      fontSize: "1.7rem",
+                      marginLeft: "2rem",
+                    }}
+                    className="nav-link dropdown-toggle page-scroll"
+                    href="/"
+                    data-toggle="dropdown"
+                  >
+                    Media
+                  </a>
+
+                  <ul
+                    className="dropdown-menu"
+                    style={{ backgroundColor: "#52a933" }}
+                  >
+                    <li className="menu-nav">
+                      <a
+                        className="nav-link dropdoen-item page-scroll"
+                        href="/blog"
+                        style={{
+                          color: "white",
+                          fontSize: "1.7rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        Blog
+                      </a>
+                      <a
+                        className="nav-link dropdoen-item page-scroll"
+                        href="/gallery"
+                        style={{
+                          color: "white",
+                          fontSize: "1.7rem",
+                          textAlign: "center",
+                        }}
+                      >
+                        Gallery
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li className="menu-nav">
+                  <a
+                    style={{
+                      color: "#52a933",
+                      fontSize: "1.7rem",
+                      marginLeft: "2rem",
+                    }}
+                    className="nav-link page-scroll"
+                    href="/contactus"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>{" "}
+          {/*- END CONTAINER */}
+        </nav>
       </header>
 
       <button id="scroll-top" title="Back to Top">

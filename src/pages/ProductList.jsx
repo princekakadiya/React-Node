@@ -422,7 +422,7 @@ const ProductList = () => {
           <i className="icon-arrow-up" />
         </button>
       </div>
-      <MobileMenu />
+      {/* <MobileMenu /> */}
     </>
   );
 };

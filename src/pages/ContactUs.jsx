@@ -32,7 +32,7 @@ const ContactUs = () => {
         </div>
         <ContactDetail />
       </div>
-      <MobileMenu />
+      {/* <MobileMenu /> */}
     </>
   );
 };
