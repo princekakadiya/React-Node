@@ -39,7 +39,7 @@ const Home = () => {
         </main>
       </div>
 
-      {/* <MobileMenu /> */}
+      <MobileMenu />
     </>
   );
 };

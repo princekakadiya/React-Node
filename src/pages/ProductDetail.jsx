@@ -630,7 +630,7 @@ const ProductDetail = () => {
           {/* End .page-content */}
         </main>
       </div>
-      {/* <MobileMenu /> */}
+      <MobileMenu />
     </>
   );
 };

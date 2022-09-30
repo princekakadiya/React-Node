@@ -215,7 +215,7 @@ const CategoryList = () => {
           </main>
         </div>
       </div>
-      {/* <MobileMenu /> */}
+      <MobileMenu />
     </>
   );
 };

@@ -160,7 +160,7 @@ const Blog = () => {
           {/* End .page-content */}
         </div>
       </div>
-      {/* <MobileMenu /> */}
+      <MobileMenu />
     </>
   );
 };

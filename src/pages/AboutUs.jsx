@@ -37,13 +37,19 @@ const AboutUs = () => {
         {/* End .mb-4 */}
       </div>
 
-<div className="bg-light-2 pt-6 pb-7 mb-6">
+      <div className="bg-light-2 pt-6 pb-7 mb-6">
         <div className="container">
-          <h2 className="title text-center mb-5" data-aos="fade-down">Certification and Accerditation</h2>
-          {/* End .title text-center mb-2 */} 
+          <h2 className="title text-center mb-5" data-aos="fade-down">
+            Certification and Accerditation
+          </h2>
+          {/* End .title text-center mb-2 */}
           <div className="row">
             <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
-          <center><h2 className="title text-center text-success mb-4 w-75">Certification 1</h2></center>
+              <center>
+                <h2 className="title text-center text-success mb-4 w-75">
+                  Certification 1
+                </h2>
+              </center>
               <div className="member member-2 text-center">
                 <figure className="member-media">
                   <img src="assets/images/team/about-2/1.jpeg" alt="" />
@@ -56,7 +62,11 @@ const AboutUs = () => {
             </div>
 
             <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
-          <center><h2 className="title text-center text-success mb-4 w-75">Certification 2</h2></center>
+              <center>
+                <h2 className="title text-center text-success mb-4 w-75">
+                  Certification 2
+                </h2>
+              </center>
               <div className="member member-2 text-center">
                 <figure className="member-media">
                   <img src="assets/images/team/about-2/2.jpeg" alt="" />
@@ -69,7 +79,11 @@ const AboutUs = () => {
             </div>
 
             <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
-          <center><h2 className="title text-center text-success mb-4 w-75">Certification 3</h2></center>
+              <center>
+                <h2 className="title text-center text-success mb-4 w-75">
+                  Certification 3
+                </h2>
+              </center>
               <div className="member member-2 text-center">
                 <figure className="member-media">
                   <img src="assets/images/team/about-2/3.jpeg" alt="" />
@@ -82,7 +96,11 @@ const AboutUs = () => {
             </div>
 
             <div className="col-sm-6 col-lg-3" data-aos="zoom-in">
-          <center><h2 className="title text-center text-success mb-4 w-75">Certification 4</h2></center>
+              <center>
+                <h2 className="title text-center text-success mb-4 w-75">
+                  Certification 4
+                </h2>
+              </center>
               <div className="member member-2 text-center">
                 <figure className="member-media">
                   <img src="assets/images/team/about-2/4.jpeg" alt="" />
@@ -180,7 +198,7 @@ const AboutUs = () => {
         </div>
         {/* End .container */}
       </div>
-      {/* <MobileMenu /> */}
+      <MobileMenu />
     </>
   );
 };
