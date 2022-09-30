@@ -180,7 +180,7 @@ const AboutUs = () => {
         </div>
         {/* End .container */}
       </div>
-      <MobileMenu />
+      {/* <MobileMenu /> */}
     </>
   );
 };

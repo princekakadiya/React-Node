@@ -132,7 +132,7 @@ const SendInquiry = () => {
           </main>
         </div>
       </div>
-      <MobileMenu />
+      {/* <MobileMenu /> */}
     </>
   );
 };

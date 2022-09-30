@@ -134,7 +134,7 @@ const Gallery = () => {
           {/* End .page-content */}
         </main>
       </div>
-      <MobileMenu />
+      {/* <MobileMenu /> */}
     </>
   );
 };

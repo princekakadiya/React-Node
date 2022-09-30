@@ -38,7 +38,8 @@ const Home = () => {
           <ContactDetail />
         </main>
       </div>
-      <MobileMenu />
+
+      {/* <MobileMenu /> */}
     </>
   );
 };
